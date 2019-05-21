@@ -1,0 +1,60 @@
+﻿@model IEnumerable<KanbanBoardWithSignalRAngularJSSol.Models.EmployeeViewCompletedModel>
+
+@{
+    ViewBag.Title = "Completed_Hours";
+}
+<div style="width:90%; margin: 0 auto 0 auto;">
+    <h2>Completed Hours</h2>
+
+    <p>
+        @Html.ActionLink("Create New Employee", "AddImage")
+    </p>
+    <table class="table">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.EmployeeName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.EmployeeImage)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TotalHoursCompleted)
+            </th>
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(model => item.EmployeeName)
+                </td>
+                <td>
+                    <form method="post" enctype="multipart/form-data">
+                        @{
+            if (item.EmployeeImage != null)
+            {
+                string imageBase64 = Convert.ToBase64String(item.EmployeeImage);
+                string imageSrc = string.Format("data:image/gif;base64,{0}", imageBase64);
+                <img src="@imageSrc" width="50" height="50" />
+            }
+                        }
+                    </form>
+
+
+                </td>
+                <td>
+                    @Html.DisplayFor(model => item.TotalHoursCompleted)
+                    @*@ViewBag.Total*@
+                    @*@Model.Sum(model => item.TotalHours)*@
+                </td>
+                @*<td>
+                      @Html.ActionLink("Edit", "Edit", new { id = item.Id }) |
+                    @Html.ActionLink("Details", "Details", new { id = item.Id }) |
+                    @Html.ActionLink("Delete", "Delete", new { id = item.Id })
+                </td>*@
+            </tr>
+        }
+
+    </table>
+</div>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DiscoveryClientResultsFile xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Results>
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.SchemaReference" url="https://api2.clarizen.com/v2.0/Clarizen.svc?xsd=xsd4" filename="Clarizen.xsd" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.SchemaReference" url="https://api2.clarizen.com/v2.0/Clarizen.svc?xsd=xsd1" filename="Clarizen0.xsd" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.ContractReference" url="https://api.clarizen.com/v2.0/Clarizen.svc" filename="Clarizen.wsdl" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.SchemaReference" url="https://api2.clarizen.com/v2.0/Clarizen.svc?xsd=xsd6" filename="Clarizen1.xsd" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.SchemaReference" url="https://api2.clarizen.com/v2.0/Clarizen.svc?xsd=xsd3" filename="Clarizen2.xsd" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.SchemaReference" url="https://api2.clarizen.com/v2.0/Clarizen.svc?xsd=xsd5" filename="Clarizen3.xsd" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.SchemaReference" url="https://api2.clarizen.com/v2.0/Clarizen.svc?xsd=xsd0" filename="Clarizen4.xsd" />
+    <DiscoveryClientResult referenceType="System.Web.Services.Discovery.SchemaReference" url="https://api2.clarizen.com/v2.0/Clarizen.svc?xsd=xsd2" filename="Clarizen5.xsd" />
+  </Results>
+</DiscoveryClientResultsFile>

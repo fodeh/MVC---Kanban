@@ -1,0 +1,44 @@
+﻿@model KanbanBoardWithSignalRAngularJSSol.Models.Employees
+
+@{
+    ViewBag.Title = "Details";
+}
+<div style="width:90%; margin: 0 auto 0 auto;">
+    <h2>Details</h2>
+
+    <div>
+        <h4>Employee</h4>
+        <hr />
+        <dl class="dl-horizontal">
+            <dt>
+                @Html.DisplayNameFor(model => model.EmployeeName)
+            </dt>
+
+            <dd>
+                @Html.DisplayFor(model => model.EmployeeName)
+            </dd>
+
+            <dt>
+                @Html.DisplayNameFor(model => model.EmployeeImage)
+            </dt>
+
+            <dd>
+                <form method="post" enctype="multipart/form-data">
+                    @{
+                        if (Model.EmployeeImage != null)
+                        {
+                            string imageBase64 = Convert.ToBase64String(Model.EmployeeImage);
+                            string imageSrc = string.Format("data:image/gif;base64,{0}", imageBase64);
+                            <img src="@imageSrc" width="50" height="50" />
+                        }
+                    }
+                </form>
+            </dd>
+
+        </dl>
+    </div>
+    <p>
+        @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+        @Html.ActionLink("Back to List", "Index")
+    </p>
+</div>

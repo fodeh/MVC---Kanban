@@ -1,0 +1,532 @@
+C:\Users\TonyD\Desktop\KanbanBoardWithSignalRAngularJSSol\KanbanBoardWithSignalRAngularJSSol\bin\KanbanBoardWithSignalRAngularJSSol.dll.config
+C:\Users\TonyD\Desktop\KanbanBoardWithSignalRAngularJSSol\KanbanBoardWithSignalRAngularJSSol\bin\KanbanBoardWithSignalRAngularJSSol.dll
+C:\Users\TonyD\Desktop\KanbanBoardWithSignalRAngularJSSol\KanbanBoardWithSignalRAngularJSSol\bin\KanbanBoardWithSignalRAngularJSSol.pdb
+C:\Users\TonyD\Desktop\KanbanBoardWithSignalRAngularJSSol\KanbanBoardWithSignalRAngularJSSol\bin\EntityFramework.dll
+C:\Users\TonyD\Desktop\KanbanBoardWithSignalRAngularJSSol\KanbanBoardWithSignalRAngularJSSol\bin\EntityFramework.SqlServer.dll
+C:\Users\TonyD\Desktop\KanbanBoardWithSignalRAngularJSSol\KanbanBoardWithSignalRAngularJSSol\bin\Microsoft.AspNet.SignalR.Core.dll
+C:\Users\TonyD\Desktop\KanbanBoardWithSignalRAngularJSSol\KanbanBoardWithSignalRAngularJSSol\bin\Microsoft.AspNet.SignalR.Owin.dll
+C:\Users\TonyD\Desktop\KanbanBoardWithSignalRAngularJSSol\KanbanBoardWithSignalRAngularJSSol\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+C:\Users\TonyD\Desktop\KanbanBoardWithSignalRAngularJSSol\KanbanBoardWithSignalRAngularJSSol\bin\Microsoft.Owin.dll
+C:\Users\TonyD\Desktop\KanbanBoardWithSignalRAngularJSSol\KanbanBoardWithSignalRAngularJSSol\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\TonyD\Desktop\KanbanBoardWithSignalRAngularJSSol\KanbanBoardWithSignalRAngularJSSol\bin\Microsoft.Owin.Security.dll
+C:\Users\TonyD\Desktop\KanbanBoardWithSignalRAngularJSSol\KanbanBoardWithSignalRAngularJSSol\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\TonyD\Desktop\KanbanBoardWithSignalRAngularJSSol\KanbanBoardWithSignalRAngularJSSol\bin\Newtonsoft.Json.dll
+C:\Users\TonyD\Desktop\KanbanBoardWithSignalRAngularJSSol\KanbanBoardWithSignalRAngularJSSol\bin\Owin.dll
+C:\Users\TonyD\Desktop\KanbanBoardWithSignalRAngularJSSol\KanbanBoardWithSignalRAngularJSSol\bin\System.Net.Http.Formatting.dll
+C:\Users\TonyD\Desktop\KanbanBoardWithSignalRAngularJSSol\KanbanBoardWithSignalRAngularJSSol\bin\System.Web.Helpers.dll
+C:\Users\TonyD\Desktop\KanbanBoardWithSignalRAngularJSSol\KanbanBoardWithSignalRAngularJSSol\bin\System.Web.Http.dll
+C:\Users\TonyD\Desktop\KanbanBoardWithSignalRAngularJSSol\KanbanBoardWithSignalRAngularJSSol\bin\System.Web.Http.WebHost.dll
+C:\Users\TonyD\Desktop\KanbanBoardWithSignalRAngularJSSol\KanbanBoardWithSignalRAngularJSSol\bin\System.Web.Mvc.dll
+C:\Users\TonyD\Desktop\KanbanBoardWithSignalRAngularJSSol\KanbanBoardWithSignalRAngularJSSol\bin\System.Web.Razor.dll
+C:\Users\TonyD\Desktop\KanbanBoardWithSignalRAngularJSSol\KanbanBoardWithSignalRAngularJSSol\bin\System.Web.WebPages.Deployment.dll
+C:\Users\TonyD\Desktop\KanbanBoardWithSignalRAngularJSSol\KanbanBoardWithSignalRAngularJSSol\bin\System.Web.WebPages.dll
+C:\Users\TonyD\Desktop\KanbanBoardWithSignalRAngularJSSol\KanbanBoardWithSignalRAngularJSSol\bin\System.Web.WebPages.Razor.dll
+C:\Users\TonyD\Desktop\KanbanBoardWithSignalRAngularJSSol\KanbanBoardWithSignalRAngularJSSol\bin\EntityFramework.xml
+C:\Users\TonyD\Desktop\KanbanBoardWithSignalRAngularJSSol\KanbanBoardWithSignalRAngularJSSol\bin\EntityFramework.SqlServer.xml
+C:\Users\TonyD\Desktop\KanbanBoardWithSignalRAngularJSSol\KanbanBoardWithSignalRAngularJSSol\bin\Microsoft.AspNet.SignalR.Core.xml
+C:\Users\TonyD\Desktop\KanbanBoardWithSignalRAngularJSSol\KanbanBoardWithSignalRAngularJSSol\bin\Microsoft.AspNet.SignalR.Owin.xml
+C:\Users\TonyD\Desktop\KanbanBoardWithSignalRAngularJSSol\KanbanBoardWithSignalRAngularJSSol\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+C:\Users\TonyD\Desktop\KanbanBoardWithSignalRAngularJSSol\KanbanBoardWithSignalRAngularJSSol\bin\Microsoft.Owin.xml
+C:\Users\TonyD\Desktop\KanbanBoardWithSignalRAngularJSSol\KanbanBoardWithSignalRAngularJSSol\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\TonyD\Desktop\KanbanBoardWithSignalRAngularJSSol\KanbanBoardWithSignalRAngularJSSol\bin\Microsoft.Owin.Security.xml
+C:\Users\TonyD\Desktop\KanbanBoardWithSignalRAngularJSSol\KanbanBoardWithSignalRAngularJSSol\bin\Newtonsoft.Json.xml
+C:\Users\TonyD\Desktop\KanbanBoardWithSignalRAngularJSSol\KanbanBoardWithSignalRAngularJSSol\bin\System.Net.Http.Formatting.xml
+C:\Users\TonyD\Desktop\KanbanBoardWithSignalRAngularJSSol\KanbanBoardWithSignalRAngularJSSol\bin\System.Web.Helpers.xml
+C:\Users\TonyD\Desktop\KanbanBoardWithSignalRAngularJSSol\KanbanBoardWithSignalRAngularJSSol\bin\System.Web.Http.xml
+C:\Users\TonyD\Desktop\KanbanBoardWithSignalRAngularJSSol\KanbanBoardWithSignalRAngularJSSol\bin\System.Web.Http.WebHost.xml
+C:\Users\TonyD\Desktop\KanbanBoardWithSignalRAngularJSSol\KanbanBoardWithSignalRAngularJSSol\bin\System.Web.Mvc.xml
+C:\Users\TonyD\Desktop\KanbanBoardWithSignalRAngularJSSol\KanbanBoardWithSignalRAngularJSSol\bin\System.Web.Razor.xml
+C:\Users\TonyD\Desktop\KanbanBoardWithSignalRAngularJSSol\KanbanBoardWithSignalRAngularJSSol\bin\System.Web.WebPages.xml
+C:\Users\TonyD\Desktop\KanbanBoardWithSignalRAngularJSSol\KanbanBoardWithSignalRAngularJSSol\bin\System.Web.WebPages.Deployment.xml
+C:\Users\TonyD\Desktop\KanbanBoardWithSignalRAngularJSSol\KanbanBoardWithSignalRAngularJSSol\bin\System.Web.WebPages.Razor.xml
+C:\Users\TonyD\Desktop\KanbanBoardWithSignalRAngularJSSol\KanbanBoardWithSignalRAngularJSSol\obj\Debug\KanbanBoardWithSignalRAngularJSSol.csproj.GenerateResource.Cache
+C:\Users\TonyD\Desktop\KanbanBoardWithSignalRAngularJSSol\KanbanBoardWithSignalRAngularJSSol\obj\Debug\KanbanBoardWithSignalRAngularJSSol.dll
+C:\Users\TonyD\Desktop\KanbanBoardWithSignalRAngularJSSol\KanbanBoardWithSignalRAngularJSSol\obj\Debug\KanbanBoardWithSignalRAngularJSSol.pdb
+C:\Users\TonyD\Desktop\KanbanBoardWithSignalRAngularJSSol\KanbanBoardWithSignalRAngularJSSol\obj\Debug\KanbanBoardWithSignalRAngularJSSol.csprojResolveAssemblyReference.cache
+C:\Users\TonyD\Desktop\KanbanBoardWithSignalRAngularJSSol Back up\KanbanBoardWithSignalRAngularJSSol\bin\KanbanBoardWithSignalRAngularJSSol.dll.config
+C:\Users\TonyD\Desktop\KanbanBoardWithSignalRAngularJSSol Back up\KanbanBoardWithSignalRAngularJSSol\bin\KanbanBoardWithSignalRAngularJSSol.dll
+C:\Users\TonyD\Desktop\KanbanBoardWithSignalRAngularJSSol Back up\KanbanBoardWithSignalRAngularJSSol\bin\KanbanBoardWithSignalRAngularJSSol.pdb
+C:\Users\TonyD\Desktop\KanbanBoardWithSignalRAngularJSSol Back up\KanbanBoardWithSignalRAngularJSSol\bin\EntityFramework.dll
+C:\Users\TonyD\Desktop\KanbanBoardWithSignalRAngularJSSol Back up\KanbanBoardWithSignalRAngularJSSol\bin\EntityFramework.SqlServer.dll
+C:\Users\TonyD\Desktop\KanbanBoardWithSignalRAngularJSSol Back up\KanbanBoardWithSignalRAngularJSSol\bin\Microsoft.AspNet.SignalR.Core.dll
+C:\Users\TonyD\Desktop\KanbanBoardWithSignalRAngularJSSol Back up\KanbanBoardWithSignalRAngularJSSol\bin\Microsoft.AspNet.SignalR.Owin.dll
+C:\Users\TonyD\Desktop\KanbanBoardWithSignalRAngularJSSol Back up\KanbanBoardWithSignalRAngularJSSol\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+C:\Users\TonyD\Desktop\KanbanBoardWithSignalRAngularJSSol Back up\KanbanBoardWithSignalRAngularJSSol\bin\Microsoft.Owin.dll
+C:\Users\TonyD\Desktop\KanbanBoardWithSignalRAngularJSSol Back up\KanbanBoardWithSignalRAngularJSSol\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\TonyD\Desktop\KanbanBoardWithSignalRAngularJSSol Back up\KanbanBoardWithSignalRAngularJSSol\bin\Microsoft.Owin.Security.dll
+C:\Users\TonyD\Desktop\KanbanBoardWithSignalRAngularJSSol Back up\KanbanBoardWithSignalRAngularJSSol\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\TonyD\Desktop\KanbanBoardWithSignalRAngularJSSol Back up\KanbanBoardWithSignalRAngularJSSol\bin\Newtonsoft.Json.dll
+C:\Users\TonyD\Desktop\KanbanBoardWithSignalRAngularJSSol Back up\KanbanBoardWithSignalRAngularJSSol\bin\Owin.dll
+C:\Users\TonyD\Desktop\KanbanBoardWithSignalRAngularJSSol Back up\KanbanBoardWithSignalRAngularJSSol\bin\System.Net.Http.Formatting.dll
+C:\Users\TonyD\Desktop\KanbanBoardWithSignalRAngularJSSol Back up\KanbanBoardWithSignalRAngularJSSol\bin\System.Web.Helpers.dll
+C:\Users\TonyD\Desktop\KanbanBoardWithSignalRAngularJSSol Back up\KanbanBoardWithSignalRAngularJSSol\bin\System.Web.Http.dll
+C:\Users\TonyD\Desktop\KanbanBoardWithSignalRAngularJSSol Back up\KanbanBoardWithSignalRAngularJSSol\bin\System.Web.Http.WebHost.dll
+C:\Users\TonyD\Desktop\KanbanBoardWithSignalRAngularJSSol Back up\KanbanBoardWithSignalRAngularJSSol\bin\System.Web.Mvc.dll
+C:\Users\TonyD\Desktop\KanbanBoardWithSignalRAngularJSSol Back up\KanbanBoardWithSignalRAngularJSSol\bin\System.Web.Razor.dll
+C:\Users\TonyD\Desktop\KanbanBoardWithSignalRAngularJSSol Back up\KanbanBoardWithSignalRAngularJSSol\bin\System.Web.WebPages.Deployment.dll
+C:\Users\TonyD\Desktop\KanbanBoardWithSignalRAngularJSSol Back up\KanbanBoardWithSignalRAngularJSSol\bin\System.Web.WebPages.dll
+C:\Users\TonyD\Desktop\KanbanBoardWithSignalRAngularJSSol Back up\KanbanBoardWithSignalRAngularJSSol\bin\System.Web.WebPages.Razor.dll
+C:\Users\TonyD\Desktop\KanbanBoardWithSignalRAngularJSSol Back up\KanbanBoardWithSignalRAngularJSSol\bin\EntityFramework.xml
+C:\Users\TonyD\Desktop\KanbanBoardWithSignalRAngularJSSol Back up\KanbanBoardWithSignalRAngularJSSol\bin\EntityFramework.SqlServer.xml
+C:\Users\TonyD\Desktop\KanbanBoardWithSignalRAngularJSSol Back up\KanbanBoardWithSignalRAngularJSSol\bin\Microsoft.AspNet.SignalR.Core.xml
+C:\Users\TonyD\Desktop\KanbanBoardWithSignalRAngularJSSol Back up\KanbanBoardWithSignalRAngularJSSol\bin\Microsoft.AspNet.SignalR.Owin.xml
+C:\Users\TonyD\Desktop\KanbanBoardWithSignalRAngularJSSol Back up\KanbanBoardWithSignalRAngularJSSol\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+C:\Users\TonyD\Desktop\KanbanBoardWithSignalRAngularJSSol Back up\KanbanBoardWithSignalRAngularJSSol\bin\Microsoft.Owin.xml
+C:\Users\TonyD\Desktop\KanbanBoardWithSignalRAngularJSSol Back up\KanbanBoardWithSignalRAngularJSSol\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\TonyD\Desktop\KanbanBoardWithSignalRAngularJSSol Back up\KanbanBoardWithSignalRAngularJSSol\bin\Microsoft.Owin.Security.xml
+C:\Users\TonyD\Desktop\KanbanBoardWithSignalRAngularJSSol Back up\KanbanBoardWithSignalRAngularJSSol\bin\Newtonsoft.Json.xml
+C:\Users\TonyD\Desktop\KanbanBoardWithSignalRAngularJSSol Back up\KanbanBoardWithSignalRAngularJSSol\bin\System.Net.Http.Formatting.xml
+C:\Users\TonyD\Desktop\KanbanBoardWithSignalRAngularJSSol Back up\KanbanBoardWithSignalRAngularJSSol\bin\System.Web.Helpers.xml
+C:\Users\TonyD\Desktop\KanbanBoardWithSignalRAngularJSSol Back up\KanbanBoardWithSignalRAngularJSSol\bin\System.Web.Http.xml
+C:\Users\TonyD\Desktop\KanbanBoardWithSignalRAngularJSSol Back up\KanbanBoardWithSignalRAngularJSSol\bin\System.Web.Http.WebHost.xml
+C:\Users\TonyD\Desktop\KanbanBoardWithSignalRAngularJSSol Back up\KanbanBoardWithSignalRAngularJSSol\bin\System.Web.Mvc.xml
+C:\Users\TonyD\Desktop\KanbanBoardWithSignalRAngularJSSol Back up\KanbanBoardWithSignalRAngularJSSol\bin\System.Web.Razor.xml
+C:\Users\TonyD\Desktop\KanbanBoardWithSignalRAngularJSSol Back up\KanbanBoardWithSignalRAngularJSSol\bin\System.Web.WebPages.xml
+C:\Users\TonyD\Desktop\KanbanBoardWithSignalRAngularJSSol Back up\KanbanBoardWithSignalRAngularJSSol\bin\System.Web.WebPages.Deployment.xml
+C:\Users\TonyD\Desktop\KanbanBoardWithSignalRAngularJSSol Back up\KanbanBoardWithSignalRAngularJSSol\bin\System.Web.WebPages.Razor.xml
+C:\Users\TonyD\Desktop\KanbanBoardWithSignalRAngularJSSol Back up\KanbanBoardWithSignalRAngularJSSol\obj\Debug\KanbanBoardWithSignalRAngularJSSol.dll
+C:\Users\TonyD\Desktop\KanbanBoardWithSignalRAngularJSSol Back up\KanbanBoardWithSignalRAngularJSSol\obj\Debug\KanbanBoardWithSignalRAngularJSSol.pdb
+C:\Users\TonyD\Desktop\KanbanBoardWithSignalRAngularJSSol Back up\KanbanBoardWithSignalRAngularJSSol\obj\Debug\KanbanBoardWithSignalRAngularJSSol.Migrations.tony.resources
+C:\Users\TonyD\Desktop\KanbanBoardWithSignalRAngularJSSol Back up\KanbanBoardWithSignalRAngularJSSol\obj\Debug\KanbanBoardWithSignalRAngularJSSol.csproj.GenerateResource.Cache
+C:\Users\TonyD\Desktop\KanbanBoardWithSignalRAngularJSSol Back up\KanbanBoardWithSignalRAngularJSSol\obj\Debug\KanbanBoardWithSignalRAngularJSSol.Migrations.tony2.resources
+C:\Users\TonyD\Desktop\KanbanBoardWithSignalRAngularJSSol Back up\KanbanBoardWithSignalRAngularJSSol\obj\Debug\KanbanBoardWithSignalRAngularJSSol.csprojResolveAssemblyReference.cache
+C:\Users\TonyD\Desktop\KanbanBoardWithSignalRAngularJSSol\KanbanBoardWithSignalRAngularJSSol\obj\Debug\KanbanBoardWithSignalRAngularJSSol.Migrations.tony.resources
+C:\Users\TonyD\Desktop\KanbanBoardWithSignalRAngularJSSol\KanbanBoardWithSignalRAngularJSSol\obj\Debug\KanbanBoardWithSignalRAngularJSSol.Migrations.tony2.resources
+C:\Users\erwt7\Documents\KanBan\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\bin\KanbanBoardWithSignalRAngularJSSol.dll.config
+C:\Users\erwt7\Documents\KanBan\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\bin\KanbanBoardWithSignalRAngularJSSol.dll
+C:\Users\erwt7\Documents\KanBan\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\bin\KanbanBoardWithSignalRAngularJSSol.pdb
+C:\Users\erwt7\Documents\KanBan\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\bin\EntityFramework.dll
+C:\Users\erwt7\Documents\KanBan\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\bin\EntityFramework.SqlServer.dll
+C:\Users\erwt7\Documents\KanBan\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\bin\HtmlAgilityPack.dll
+C:\Users\erwt7\Documents\KanBan\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\bin\Microsoft.AspNet.SignalR.Core.dll
+C:\Users\erwt7\Documents\KanBan\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\bin\Microsoft.AspNet.SignalR.Owin.dll
+C:\Users\erwt7\Documents\KanBan\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+C:\Users\erwt7\Documents\KanBan\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\bin\Microsoft.Owin.dll
+C:\Users\erwt7\Documents\KanBan\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\erwt7\Documents\KanBan\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\bin\Microsoft.Owin.Security.dll
+C:\Users\erwt7\Documents\KanBan\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\erwt7\Documents\KanBan\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\bin\Newtonsoft.Json.dll
+C:\Users\erwt7\Documents\KanBan\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\bin\Owin.dll
+C:\Users\erwt7\Documents\KanBan\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\bin\System.Net.Http.Formatting.dll
+C:\Users\erwt7\Documents\KanBan\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\bin\System.Web.Helpers.dll
+C:\Users\erwt7\Documents\KanBan\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\bin\System.Web.Http.dll
+C:\Users\erwt7\Documents\KanBan\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\bin\System.Web.Http.WebHost.dll
+C:\Users\erwt7\Documents\KanBan\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\bin\System.Web.Mvc.dll
+C:\Users\erwt7\Documents\KanBan\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\bin\System.Web.Razor.dll
+C:\Users\erwt7\Documents\KanBan\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\bin\System.Web.WebPages.Deployment.dll
+C:\Users\erwt7\Documents\KanBan\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\bin\System.Web.WebPages.dll
+C:\Users\erwt7\Documents\KanBan\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\bin\System.Web.WebPages.Razor.dll
+C:\Users\erwt7\Documents\KanBan\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\bin\EntityFramework.xml
+C:\Users\erwt7\Documents\KanBan\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\bin\EntityFramework.SqlServer.xml
+C:\Users\erwt7\Documents\KanBan\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\bin\HtmlAgilityPack.pdb
+C:\Users\erwt7\Documents\KanBan\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\bin\HtmlAgilityPack.xml
+C:\Users\erwt7\Documents\KanBan\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\bin\Microsoft.AspNet.SignalR.Core.pdb
+C:\Users\erwt7\Documents\KanBan\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\bin\Microsoft.AspNet.SignalR.Core.xml
+C:\Users\erwt7\Documents\KanBan\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\bin\Microsoft.AspNet.SignalR.Owin.xml
+C:\Users\erwt7\Documents\KanBan\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\bin\Microsoft.AspNet.SignalR.SystemWeb.pdb
+C:\Users\erwt7\Documents\KanBan\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+C:\Users\erwt7\Documents\KanBan\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\bin\Microsoft.Owin.xml
+C:\Users\erwt7\Documents\KanBan\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\erwt7\Documents\KanBan\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\bin\Microsoft.Owin.Security.xml
+C:\Users\erwt7\Documents\KanBan\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\bin\Newtonsoft.Json.pdb
+C:\Users\erwt7\Documents\KanBan\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\bin\Newtonsoft.Json.xml
+C:\Users\erwt7\Documents\KanBan\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\bin\System.Net.Http.Formatting.xml
+C:\Users\erwt7\Documents\KanBan\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\bin\System.Web.Helpers.xml
+C:\Users\erwt7\Documents\KanBan\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\bin\System.Web.Http.xml
+C:\Users\erwt7\Documents\KanBan\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\bin\System.Web.Http.WebHost.xml
+C:\Users\erwt7\Documents\KanBan\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\bin\System.Web.Mvc.xml
+C:\Users\erwt7\Documents\KanBan\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\bin\System.Web.Razor.xml
+C:\Users\erwt7\Documents\KanBan\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\bin\System.Web.WebPages.xml
+C:\Users\erwt7\Documents\KanBan\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\bin\System.Web.WebPages.Deployment.xml
+C:\Users\erwt7\Documents\KanBan\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\bin\System.Web.WebPages.Razor.xml
+C:\Users\erwt7\Documents\KanBan\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\obj\Debug\KanbanBoardWithSignalRAngularJSSol.csprojAssemblyReference.cache
+C:\Users\erwt7\Documents\KanBan\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\obj\Debug\KanbanBoardWithSignalRAngularJSSol.Migrations.tony.resources
+C:\Users\erwt7\Documents\KanBan\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\obj\Debug\KanbanBoardWithSignalRAngularJSSol.Migrations.tony2.resources
+C:\Users\erwt7\Documents\KanBan\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\obj\Debug\KanbanBoardWithSignalRAngularJSSol.Migrations._1.resources
+C:\Users\erwt7\Documents\KanBan\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\obj\Debug\KanbanBoardWithSignalRAngularJSSol.csproj.GenerateResource.cache
+C:\Users\erwt7\Documents\KanBan\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\obj\Debug\KanbanBoardWithSignalRAngularJSSol.csproj.CoreCompileInputs.cache
+C:\Users\erwt7\Documents\KanBan\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\obj\Debug\KanbanBoardWithSignalRAngularJSSol.csproj.CopyComplete
+C:\Users\erwt7\Documents\KanBan\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\obj\Debug\KanbanBoardWithSignalRAngularJSSol.dll
+C:\Users\erwt7\Documents\KanBan\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\obj\Debug\KanbanBoardWithSignalRAngularJSSol.pdb
+C:\Users\erwt7\Documents\KanBan\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\bin\roslyn\csc.exe
+C:\Users\erwt7\Documents\KanBan\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\bin\roslyn\csc.exe.config
+C:\Users\erwt7\Documents\KanBan\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\bin\roslyn\csc.rsp
+C:\Users\erwt7\Documents\KanBan\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\bin\roslyn\csi.exe
+C:\Users\erwt7\Documents\KanBan\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\bin\roslyn\csi.rsp
+C:\Users\erwt7\Documents\KanBan\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\erwt7\Documents\KanBan\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\erwt7\Documents\KanBan\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\erwt7\Documents\KanBan\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\erwt7\Documents\KanBan\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\erwt7\Documents\KanBan\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\erwt7\Documents\KanBan\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\erwt7\Documents\KanBan\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\erwt7\Documents\KanBan\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\erwt7\Documents\KanBan\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\erwt7\Documents\KanBan\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\bin\roslyn\System.AppContext.dll
+C:\Users\erwt7\Documents\KanBan\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\erwt7\Documents\KanBan\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\erwt7\Documents\KanBan\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\erwt7\Documents\KanBan\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\erwt7\Documents\KanBan\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\erwt7\Documents\KanBan\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\bin\roslyn\vbc.exe
+C:\Users\erwt7\Documents\KanBan\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\bin\roslyn\vbc.exe.config
+C:\Users\erwt7\Documents\KanBan\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\bin\roslyn\vbc.rsp
+C:\Users\erwt7\Documents\KanBan\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\bin\roslyn\VBCSCompiler.exe
+C:\Users\erwt7\Documents\KanBan\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\erwt7\Documents\KanBan\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\erwt7\Documents\KanBan\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\erwt7\Documents\KanBan\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\bin\KanbanBoardWithSignalRAngularJSSol.XmlSerializers.dll
+C:\Users\erwt7\Documents\KanBan\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\obj\Debug\KanbanBoardWithSignalRAngularJSSol.XmlSerializers.dll
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\bin\KanbanBoardWithSignalRAngularJSSol.dll.config
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\bin\KanbanBoardWithSignalRAngularJSSol.dll
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\bin\KanbanBoardWithSignalRAngularJSSol.XmlSerializers.dll
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\bin\KanbanBoardWithSignalRAngularJSSol.pdb
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\bin\roslyn\csc.exe
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\bin\roslyn\csc.exe.config
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\bin\roslyn\csc.rsp
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\bin\roslyn\csi.exe
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\bin\roslyn\csi.rsp
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\bin\roslyn\System.AppContext.dll
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\bin\roslyn\vbc.exe
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\bin\roslyn\vbc.exe.config
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\bin\roslyn\vbc.rsp
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\bin\roslyn\VBCSCompiler.exe
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\bin\EntityFramework.dll
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\bin\EntityFramework.SqlServer.dll
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\bin\HtmlAgilityPack.dll
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\bin\Microsoft.AspNet.SignalR.Core.dll
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\bin\Microsoft.AspNet.SignalR.Owin.dll
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\bin\Microsoft.Owin.dll
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\bin\Microsoft.Owin.Security.dll
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\bin\Newtonsoft.Json.dll
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\bin\Owin.dll
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\bin\System.Net.Http.Formatting.dll
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\bin\System.Web.Helpers.dll
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\bin\System.Web.Http.dll
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\bin\System.Web.Http.WebHost.dll
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\bin\System.Web.Mvc.dll
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\bin\System.Web.Razor.dll
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\bin\System.Web.WebPages.Deployment.dll
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\bin\System.Web.WebPages.dll
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\bin\System.Web.WebPages.Razor.dll
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\bin\EntityFramework.xml
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\bin\EntityFramework.SqlServer.xml
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\bin\HtmlAgilityPack.pdb
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\bin\HtmlAgilityPack.xml
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\bin\Microsoft.AspNet.SignalR.Core.pdb
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\bin\Microsoft.AspNet.SignalR.Core.xml
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\bin\Microsoft.AspNet.SignalR.Owin.xml
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\bin\Microsoft.AspNet.SignalR.SystemWeb.pdb
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\bin\Microsoft.Owin.xml
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\bin\Microsoft.Owin.Security.xml
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\bin\Newtonsoft.Json.pdb
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\bin\Newtonsoft.Json.xml
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\bin\System.Net.Http.Formatting.xml
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\bin\System.Web.Helpers.xml
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\bin\System.Web.Http.xml
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\bin\System.Web.Http.WebHost.xml
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\bin\System.Web.Mvc.xml
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\bin\System.Web.Razor.xml
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\bin\System.Web.WebPages.xml
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\bin\System.Web.WebPages.Deployment.xml
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\bin\System.Web.WebPages.Razor.xml
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\obj\Debug\KanbanBoardWithSignalRAngularJSSol.csprojAssemblyReference.cache
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\obj\Debug\KanbanBoardWithSignalRAngularJSSol.Migrations.tony.resources
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\obj\Debug\KanbanBoardWithSignalRAngularJSSol.Migrations.tony2.resources
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\obj\Debug\KanbanBoardWithSignalRAngularJSSol.Migrations._1.resources
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\obj\Debug\KanbanBoardWithSignalRAngularJSSol.csproj.GenerateResource.cache
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\obj\Debug\KanbanBoardWithSignalRAngularJSSol.csproj.CoreCompileInputs.cache
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\obj\Debug\KanbanBoardWithSignalRAngularJSSol.csproj.CopyComplete
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\obj\Debug\KanbanBoardWithSignalRAngularJSSol.dll
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\obj\Debug\KanbanBoardWithSignalRAngularJSSol.pdb
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\KanbanBoardWithSignalRAngularJSSo working backup\KanbanBoardWithSignalRAngularJSSol\obj\Debug\KanbanBoardWithSignalRAngularJSSol.XmlSerializers.dll
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\revised\KanbanBoardWithSignalRAngularJSSol\bin\KanbanBoardWithSignalRAngularJSSol.dll.config
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\revised\KanbanBoardWithSignalRAngularJSSol\bin\KanbanBoardWithSignalRAngularJSSol.dll
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\revised\KanbanBoardWithSignalRAngularJSSol\bin\KanbanBoardWithSignalRAngularJSSol.XmlSerializers.dll
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\revised\KanbanBoardWithSignalRAngularJSSol\bin\KanbanBoardWithSignalRAngularJSSol.pdb
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\revised\KanbanBoardWithSignalRAngularJSSol\bin\roslyn\csc.exe
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\revised\KanbanBoardWithSignalRAngularJSSol\bin\roslyn\csc.exe.config
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\revised\KanbanBoardWithSignalRAngularJSSol\bin\roslyn\csc.rsp
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\revised\KanbanBoardWithSignalRAngularJSSol\bin\roslyn\csi.exe
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\revised\KanbanBoardWithSignalRAngularJSSol\bin\roslyn\csi.rsp
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\revised\KanbanBoardWithSignalRAngularJSSol\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\revised\KanbanBoardWithSignalRAngularJSSol\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\revised\KanbanBoardWithSignalRAngularJSSol\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\revised\KanbanBoardWithSignalRAngularJSSol\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\revised\KanbanBoardWithSignalRAngularJSSol\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\revised\KanbanBoardWithSignalRAngularJSSol\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\revised\KanbanBoardWithSignalRAngularJSSol\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\revised\KanbanBoardWithSignalRAngularJSSol\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\revised\KanbanBoardWithSignalRAngularJSSol\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\revised\KanbanBoardWithSignalRAngularJSSol\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\revised\KanbanBoardWithSignalRAngularJSSol\bin\roslyn\System.AppContext.dll
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\revised\KanbanBoardWithSignalRAngularJSSol\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\revised\KanbanBoardWithSignalRAngularJSSol\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\revised\KanbanBoardWithSignalRAngularJSSol\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\revised\KanbanBoardWithSignalRAngularJSSol\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\revised\KanbanBoardWithSignalRAngularJSSol\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\revised\KanbanBoardWithSignalRAngularJSSol\bin\roslyn\vbc.exe
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\revised\KanbanBoardWithSignalRAngularJSSol\bin\roslyn\vbc.exe.config
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\revised\KanbanBoardWithSignalRAngularJSSol\bin\roslyn\vbc.rsp
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\revised\KanbanBoardWithSignalRAngularJSSol\bin\roslyn\VBCSCompiler.exe
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\revised\KanbanBoardWithSignalRAngularJSSol\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\revised\KanbanBoardWithSignalRAngularJSSol\bin\EntityFramework.dll
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\revised\KanbanBoardWithSignalRAngularJSSol\bin\EntityFramework.SqlServer.dll
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\revised\KanbanBoardWithSignalRAngularJSSol\bin\HtmlAgilityPack.dll
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\revised\KanbanBoardWithSignalRAngularJSSol\bin\Microsoft.AspNet.SignalR.Core.dll
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\revised\KanbanBoardWithSignalRAngularJSSol\bin\Microsoft.AspNet.SignalR.Owin.dll
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\revised\KanbanBoardWithSignalRAngularJSSol\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\revised\KanbanBoardWithSignalRAngularJSSol\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\revised\KanbanBoardWithSignalRAngularJSSol\bin\Microsoft.Owin.dll
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\revised\KanbanBoardWithSignalRAngularJSSol\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\revised\KanbanBoardWithSignalRAngularJSSol\bin\Microsoft.Owin.Security.dll
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\revised\KanbanBoardWithSignalRAngularJSSol\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\revised\KanbanBoardWithSignalRAngularJSSol\bin\Newtonsoft.Json.dll
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\revised\KanbanBoardWithSignalRAngularJSSol\bin\Owin.dll
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\revised\KanbanBoardWithSignalRAngularJSSol\bin\System.Net.Http.Formatting.dll
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\revised\KanbanBoardWithSignalRAngularJSSol\bin\System.Web.Helpers.dll
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\revised\KanbanBoardWithSignalRAngularJSSol\bin\System.Web.Http.dll
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\revised\KanbanBoardWithSignalRAngularJSSol\bin\System.Web.Http.WebHost.dll
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\revised\KanbanBoardWithSignalRAngularJSSol\bin\System.Web.Mvc.dll
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\revised\KanbanBoardWithSignalRAngularJSSol\bin\System.Web.Razor.dll
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\revised\KanbanBoardWithSignalRAngularJSSol\bin\System.Web.WebPages.Deployment.dll
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\revised\KanbanBoardWithSignalRAngularJSSol\bin\System.Web.WebPages.dll
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\revised\KanbanBoardWithSignalRAngularJSSol\bin\System.Web.WebPages.Razor.dll
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\revised\KanbanBoardWithSignalRAngularJSSol\bin\EntityFramework.xml
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\revised\KanbanBoardWithSignalRAngularJSSol\bin\EntityFramework.SqlServer.xml
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\revised\KanbanBoardWithSignalRAngularJSSol\bin\HtmlAgilityPack.pdb
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\revised\KanbanBoardWithSignalRAngularJSSol\bin\HtmlAgilityPack.xml
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\revised\KanbanBoardWithSignalRAngularJSSol\bin\Microsoft.AspNet.SignalR.Core.pdb
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\revised\KanbanBoardWithSignalRAngularJSSol\bin\Microsoft.AspNet.SignalR.Core.xml
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\revised\KanbanBoardWithSignalRAngularJSSol\bin\Microsoft.AspNet.SignalR.Owin.xml
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\revised\KanbanBoardWithSignalRAngularJSSol\bin\Microsoft.AspNet.SignalR.SystemWeb.pdb
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\revised\KanbanBoardWithSignalRAngularJSSol\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\revised\KanbanBoardWithSignalRAngularJSSol\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\revised\KanbanBoardWithSignalRAngularJSSol\bin\Microsoft.Owin.xml
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\revised\KanbanBoardWithSignalRAngularJSSol\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\revised\KanbanBoardWithSignalRAngularJSSol\bin\Microsoft.Owin.Security.xml
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\revised\KanbanBoardWithSignalRAngularJSSol\bin\Newtonsoft.Json.pdb
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\revised\KanbanBoardWithSignalRAngularJSSol\bin\Newtonsoft.Json.xml
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\revised\KanbanBoardWithSignalRAngularJSSol\bin\System.Net.Http.Formatting.xml
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\revised\KanbanBoardWithSignalRAngularJSSol\bin\System.Web.Helpers.xml
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\revised\KanbanBoardWithSignalRAngularJSSol\bin\System.Web.Http.xml
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\revised\KanbanBoardWithSignalRAngularJSSol\bin\System.Web.Http.WebHost.xml
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\revised\KanbanBoardWithSignalRAngularJSSol\bin\System.Web.Mvc.xml
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\revised\KanbanBoardWithSignalRAngularJSSol\bin\System.Web.Razor.xml
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\revised\KanbanBoardWithSignalRAngularJSSol\bin\System.Web.WebPages.xml
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\revised\KanbanBoardWithSignalRAngularJSSol\bin\System.Web.WebPages.Deployment.xml
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\revised\KanbanBoardWithSignalRAngularJSSol\bin\System.Web.WebPages.Razor.xml
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\revised\KanbanBoardWithSignalRAngularJSSol\obj\Debug\KanbanBoardWithSignalRAngularJSSol.csprojAssemblyReference.cache
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\revised\KanbanBoardWithSignalRAngularJSSol\obj\Debug\KanbanBoardWithSignalRAngularJSSol.Migrations.tony.resources
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\revised\KanbanBoardWithSignalRAngularJSSol\obj\Debug\KanbanBoardWithSignalRAngularJSSol.Migrations.tony2.resources
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\revised\KanbanBoardWithSignalRAngularJSSol\obj\Debug\KanbanBoardWithSignalRAngularJSSol.Migrations._1.resources
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\revised\KanbanBoardWithSignalRAngularJSSol\obj\Debug\KanbanBoardWithSignalRAngularJSSol.csproj.GenerateResource.cache
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\revised\KanbanBoardWithSignalRAngularJSSol\obj\Debug\KanbanBoardWithSignalRAngularJSSol.csproj.CoreCompileInputs.cache
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\revised\KanbanBoardWithSignalRAngularJSSol\obj\Debug\KanbanBoardWithSignalRAngularJSSol.csproj.CopyComplete
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\revised\KanbanBoardWithSignalRAngularJSSol\obj\Debug\KanbanBoardWithSignalRAngularJSSol.dll
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\revised\KanbanBoardWithSignalRAngularJSSol\obj\Debug\KanbanBoardWithSignalRAngularJSSol.pdb
+C:\Users\firauso.Kyle-PC\Documents\RevisedProejct\Kanban\revised\KanbanBoardWithSignalRAngularJSSol\obj\Debug\KanbanBoardWithSignalRAngularJSSol.XmlSerializers.dll
+C:\Users\firauso.Kyle-PC\Downloads\k2\kanban\KanbanBoardWithSignalRAngularJSSol\bin\KanbanBoardWithSignalRAngularJSSol.dll.config
+C:\Users\firauso.Kyle-PC\Downloads\k2\kanban\KanbanBoardWithSignalRAngularJSSol\bin\KanbanBoardWithSignalRAngularJSSol.dll
+C:\Users\firauso.Kyle-PC\Downloads\k2\kanban\KanbanBoardWithSignalRAngularJSSol\bin\KanbanBoardWithSignalRAngularJSSol.XmlSerializers.dll
+C:\Users\firauso.Kyle-PC\Downloads\k2\kanban\KanbanBoardWithSignalRAngularJSSol\bin\KanbanBoardWithSignalRAngularJSSol.pdb
+C:\Users\firauso.Kyle-PC\Downloads\k2\kanban\KanbanBoardWithSignalRAngularJSSol\bin\roslyn\csc.exe
+C:\Users\firauso.Kyle-PC\Downloads\k2\kanban\KanbanBoardWithSignalRAngularJSSol\bin\roslyn\csc.exe.config
+C:\Users\firauso.Kyle-PC\Downloads\k2\kanban\KanbanBoardWithSignalRAngularJSSol\bin\roslyn\csc.rsp
+C:\Users\firauso.Kyle-PC\Downloads\k2\kanban\KanbanBoardWithSignalRAngularJSSol\bin\roslyn\csi.exe
+C:\Users\firauso.Kyle-PC\Downloads\k2\kanban\KanbanBoardWithSignalRAngularJSSol\bin\roslyn\csi.rsp
+C:\Users\firauso.Kyle-PC\Downloads\k2\kanban\KanbanBoardWithSignalRAngularJSSol\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\firauso.Kyle-PC\Downloads\k2\kanban\KanbanBoardWithSignalRAngularJSSol\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\firauso.Kyle-PC\Downloads\k2\kanban\KanbanBoardWithSignalRAngularJSSol\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\firauso.Kyle-PC\Downloads\k2\kanban\KanbanBoardWithSignalRAngularJSSol\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\firauso.Kyle-PC\Downloads\k2\kanban\KanbanBoardWithSignalRAngularJSSol\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\firauso.Kyle-PC\Downloads\k2\kanban\KanbanBoardWithSignalRAngularJSSol\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\firauso.Kyle-PC\Downloads\k2\kanban\KanbanBoardWithSignalRAngularJSSol\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\firauso.Kyle-PC\Downloads\k2\kanban\KanbanBoardWithSignalRAngularJSSol\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\firauso.Kyle-PC\Downloads\k2\kanban\KanbanBoardWithSignalRAngularJSSol\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\firauso.Kyle-PC\Downloads\k2\kanban\KanbanBoardWithSignalRAngularJSSol\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\firauso.Kyle-PC\Downloads\k2\kanban\KanbanBoardWithSignalRAngularJSSol\bin\roslyn\System.AppContext.dll
+C:\Users\firauso.Kyle-PC\Downloads\k2\kanban\KanbanBoardWithSignalRAngularJSSol\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\firauso.Kyle-PC\Downloads\k2\kanban\KanbanBoardWithSignalRAngularJSSol\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\firauso.Kyle-PC\Downloads\k2\kanban\KanbanBoardWithSignalRAngularJSSol\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\firauso.Kyle-PC\Downloads\k2\kanban\KanbanBoardWithSignalRAngularJSSol\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\firauso.Kyle-PC\Downloads\k2\kanban\KanbanBoardWithSignalRAngularJSSol\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\firauso.Kyle-PC\Downloads\k2\kanban\KanbanBoardWithSignalRAngularJSSol\bin\roslyn\vbc.exe
+C:\Users\firauso.Kyle-PC\Downloads\k2\kanban\KanbanBoardWithSignalRAngularJSSol\bin\roslyn\vbc.exe.config
+C:\Users\firauso.Kyle-PC\Downloads\k2\kanban\KanbanBoardWithSignalRAngularJSSol\bin\roslyn\vbc.rsp
+C:\Users\firauso.Kyle-PC\Downloads\k2\kanban\KanbanBoardWithSignalRAngularJSSol\bin\roslyn\VBCSCompiler.exe
+C:\Users\firauso.Kyle-PC\Downloads\k2\kanban\KanbanBoardWithSignalRAngularJSSol\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\firauso.Kyle-PC\Downloads\k2\kanban\KanbanBoardWithSignalRAngularJSSol\bin\EntityFramework.dll
+C:\Users\firauso.Kyle-PC\Downloads\k2\kanban\KanbanBoardWithSignalRAngularJSSol\bin\EntityFramework.SqlServer.dll
+C:\Users\firauso.Kyle-PC\Downloads\k2\kanban\KanbanBoardWithSignalRAngularJSSol\bin\HtmlAgilityPack.dll
+C:\Users\firauso.Kyle-PC\Downloads\k2\kanban\KanbanBoardWithSignalRAngularJSSol\bin\Microsoft.AspNet.SignalR.Core.dll
+C:\Users\firauso.Kyle-PC\Downloads\k2\kanban\KanbanBoardWithSignalRAngularJSSol\bin\Microsoft.AspNet.SignalR.Owin.dll
+C:\Users\firauso.Kyle-PC\Downloads\k2\kanban\KanbanBoardWithSignalRAngularJSSol\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+C:\Users\firauso.Kyle-PC\Downloads\k2\kanban\KanbanBoardWithSignalRAngularJSSol\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\firauso.Kyle-PC\Downloads\k2\kanban\KanbanBoardWithSignalRAngularJSSol\bin\Microsoft.Owin.dll
+C:\Users\firauso.Kyle-PC\Downloads\k2\kanban\KanbanBoardWithSignalRAngularJSSol\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\firauso.Kyle-PC\Downloads\k2\kanban\KanbanBoardWithSignalRAngularJSSol\bin\Microsoft.Owin.Security.dll
+C:\Users\firauso.Kyle-PC\Downloads\k2\kanban\KanbanBoardWithSignalRAngularJSSol\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\firauso.Kyle-PC\Downloads\k2\kanban\KanbanBoardWithSignalRAngularJSSol\bin\Newtonsoft.Json.dll
+C:\Users\firauso.Kyle-PC\Downloads\k2\kanban\KanbanBoardWithSignalRAngularJSSol\bin\Owin.dll
+C:\Users\firauso.Kyle-PC\Downloads\k2\kanban\KanbanBoardWithSignalRAngularJSSol\bin\System.Net.Http.Formatting.dll
+C:\Users\firauso.Kyle-PC\Downloads\k2\kanban\KanbanBoardWithSignalRAngularJSSol\bin\System.Web.Helpers.dll
+C:\Users\firauso.Kyle-PC\Downloads\k2\kanban\KanbanBoardWithSignalRAngularJSSol\bin\System.Web.Http.dll
+C:\Users\firauso.Kyle-PC\Downloads\k2\kanban\KanbanBoardWithSignalRAngularJSSol\bin\System.Web.Http.WebHost.dll
+C:\Users\firauso.Kyle-PC\Downloads\k2\kanban\KanbanBoardWithSignalRAngularJSSol\bin\System.Web.Mvc.dll
+C:\Users\firauso.Kyle-PC\Downloads\k2\kanban\KanbanBoardWithSignalRAngularJSSol\bin\System.Web.Razor.dll
+C:\Users\firauso.Kyle-PC\Downloads\k2\kanban\KanbanBoardWithSignalRAngularJSSol\bin\System.Web.WebPages.Deployment.dll
+C:\Users\firauso.Kyle-PC\Downloads\k2\kanban\KanbanBoardWithSignalRAngularJSSol\bin\System.Web.WebPages.dll
+C:\Users\firauso.Kyle-PC\Downloads\k2\kanban\KanbanBoardWithSignalRAngularJSSol\bin\System.Web.WebPages.Razor.dll
+C:\Users\firauso.Kyle-PC\Downloads\k2\kanban\KanbanBoardWithSignalRAngularJSSol\bin\EntityFramework.xml
+C:\Users\firauso.Kyle-PC\Downloads\k2\kanban\KanbanBoardWithSignalRAngularJSSol\bin\EntityFramework.SqlServer.xml
+C:\Users\firauso.Kyle-PC\Downloads\k2\kanban\KanbanBoardWithSignalRAngularJSSol\bin\HtmlAgilityPack.pdb
+C:\Users\firauso.Kyle-PC\Downloads\k2\kanban\KanbanBoardWithSignalRAngularJSSol\bin\HtmlAgilityPack.xml
+C:\Users\firauso.Kyle-PC\Downloads\k2\kanban\KanbanBoardWithSignalRAngularJSSol\bin\Microsoft.AspNet.SignalR.Core.pdb
+C:\Users\firauso.Kyle-PC\Downloads\k2\kanban\KanbanBoardWithSignalRAngularJSSol\bin\Microsoft.AspNet.SignalR.Core.xml
+C:\Users\firauso.Kyle-PC\Downloads\k2\kanban\KanbanBoardWithSignalRAngularJSSol\bin\Microsoft.AspNet.SignalR.Owin.xml
+C:\Users\firauso.Kyle-PC\Downloads\k2\kanban\KanbanBoardWithSignalRAngularJSSol\bin\Microsoft.AspNet.SignalR.SystemWeb.pdb
+C:\Users\firauso.Kyle-PC\Downloads\k2\kanban\KanbanBoardWithSignalRAngularJSSol\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+C:\Users\firauso.Kyle-PC\Downloads\k2\kanban\KanbanBoardWithSignalRAngularJSSol\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\firauso.Kyle-PC\Downloads\k2\kanban\KanbanBoardWithSignalRAngularJSSol\bin\Microsoft.Owin.xml
+C:\Users\firauso.Kyle-PC\Downloads\k2\kanban\KanbanBoardWithSignalRAngularJSSol\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\firauso.Kyle-PC\Downloads\k2\kanban\KanbanBoardWithSignalRAngularJSSol\bin\Microsoft.Owin.Security.xml
+C:\Users\firauso.Kyle-PC\Downloads\k2\kanban\KanbanBoardWithSignalRAngularJSSol\bin\Newtonsoft.Json.pdb
+C:\Users\firauso.Kyle-PC\Downloads\k2\kanban\KanbanBoardWithSignalRAngularJSSol\bin\Newtonsoft.Json.xml
+C:\Users\firauso.Kyle-PC\Downloads\k2\kanban\KanbanBoardWithSignalRAngularJSSol\bin\System.Net.Http.Formatting.xml
+C:\Users\firauso.Kyle-PC\Downloads\k2\kanban\KanbanBoardWithSignalRAngularJSSol\bin\System.Web.Helpers.xml
+C:\Users\firauso.Kyle-PC\Downloads\k2\kanban\KanbanBoardWithSignalRAngularJSSol\bin\System.Web.Http.xml
+C:\Users\firauso.Kyle-PC\Downloads\k2\kanban\KanbanBoardWithSignalRAngularJSSol\bin\System.Web.Http.WebHost.xml
+C:\Users\firauso.Kyle-PC\Downloads\k2\kanban\KanbanBoardWithSignalRAngularJSSol\bin\System.Web.Mvc.xml
+C:\Users\firauso.Kyle-PC\Downloads\k2\kanban\KanbanBoardWithSignalRAngularJSSol\bin\System.Web.Razor.xml
+C:\Users\firauso.Kyle-PC\Downloads\k2\kanban\KanbanBoardWithSignalRAngularJSSol\bin\System.Web.WebPages.xml
+C:\Users\firauso.Kyle-PC\Downloads\k2\kanban\KanbanBoardWithSignalRAngularJSSol\bin\System.Web.WebPages.Deployment.xml
+C:\Users\firauso.Kyle-PC\Downloads\k2\kanban\KanbanBoardWithSignalRAngularJSSol\bin\System.Web.WebPages.Razor.xml
+C:\Users\firauso.Kyle-PC\Downloads\k2\kanban\KanbanBoardWithSignalRAngularJSSol\obj\Debug\KanbanBoardWithSignalRAngularJSSol.csprojAssemblyReference.cache
+C:\Users\firauso.Kyle-PC\Downloads\k2\kanban\KanbanBoardWithSignalRAngularJSSol\obj\Debug\KanbanBoardWithSignalRAngularJSSol.Migrations.tony.resources
+C:\Users\firauso.Kyle-PC\Downloads\k2\kanban\KanbanBoardWithSignalRAngularJSSol\obj\Debug\KanbanBoardWithSignalRAngularJSSol.Migrations.tony2.resources
+C:\Users\firauso.Kyle-PC\Downloads\k2\kanban\KanbanBoardWithSignalRAngularJSSol\obj\Debug\KanbanBoardWithSignalRAngularJSSol.Migrations._1.resources
+C:\Users\firauso.Kyle-PC\Downloads\k2\kanban\KanbanBoardWithSignalRAngularJSSol\obj\Debug\KanbanBoardWithSignalRAngularJSSol.csproj.GenerateResource.cache
+C:\Users\firauso.Kyle-PC\Downloads\k2\kanban\KanbanBoardWithSignalRAngularJSSol\obj\Debug\KanbanBoardWithSignalRAngularJSSol.csproj.CoreCompileInputs.cache
+C:\Users\firauso.Kyle-PC\Downloads\k2\kanban\KanbanBoardWithSignalRAngularJSSol\obj\Debug\KanbanBoardWithSignalRAngularJSSol.csproj.CopyComplete
+C:\Users\firauso.Kyle-PC\Downloads\k2\kanban\KanbanBoardWithSignalRAngularJSSol\obj\Debug\KanbanBoardWithSignalRAngularJSSol.dll
+C:\Users\firauso.Kyle-PC\Downloads\k2\kanban\KanbanBoardWithSignalRAngularJSSol\obj\Debug\KanbanBoardWithSignalRAngularJSSol.pdb
+C:\Users\firauso.Kyle-PC\Downloads\k2\kanban\KanbanBoardWithSignalRAngularJSSol\obj\Debug\KanbanBoardWithSignalRAngularJSSol.XmlSerializers.dll
+C:\Users\firauso.Kyle-PC\Documents\sandbox\kanban-board\kanban\KanbanBoardWithSignalRAngularJSSol\bin\KanbanBoardWithSignalRAngularJSSol.dll.config
+C:\Users\firauso.Kyle-PC\Documents\sandbox\kanban-board\kanban\KanbanBoardWithSignalRAngularJSSol\bin\KanbanBoardWithSignalRAngularJSSol.dll
+C:\Users\firauso.Kyle-PC\Documents\sandbox\kanban-board\kanban\KanbanBoardWithSignalRAngularJSSol\bin\KanbanBoardWithSignalRAngularJSSol.XmlSerializers.dll
+C:\Users\firauso.Kyle-PC\Documents\sandbox\kanban-board\kanban\KanbanBoardWithSignalRAngularJSSol\bin\KanbanBoardWithSignalRAngularJSSol.pdb
+C:\Users\firauso.Kyle-PC\Documents\sandbox\kanban-board\kanban\KanbanBoardWithSignalRAngularJSSol\bin\roslyn\csc.exe
+C:\Users\firauso.Kyle-PC\Documents\sandbox\kanban-board\kanban\KanbanBoardWithSignalRAngularJSSol\bin\roslyn\csc.exe.config
+C:\Users\firauso.Kyle-PC\Documents\sandbox\kanban-board\kanban\KanbanBoardWithSignalRAngularJSSol\bin\roslyn\csc.rsp
+C:\Users\firauso.Kyle-PC\Documents\sandbox\kanban-board\kanban\KanbanBoardWithSignalRAngularJSSol\bin\roslyn\csi.exe
+C:\Users\firauso.Kyle-PC\Documents\sandbox\kanban-board\kanban\KanbanBoardWithSignalRAngularJSSol\bin\roslyn\csi.rsp
+C:\Users\firauso.Kyle-PC\Documents\sandbox\kanban-board\kanban\KanbanBoardWithSignalRAngularJSSol\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\firauso.Kyle-PC\Documents\sandbox\kanban-board\kanban\KanbanBoardWithSignalRAngularJSSol\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\firauso.Kyle-PC\Documents\sandbox\kanban-board\kanban\KanbanBoardWithSignalRAngularJSSol\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\firauso.Kyle-PC\Documents\sandbox\kanban-board\kanban\KanbanBoardWithSignalRAngularJSSol\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\firauso.Kyle-PC\Documents\sandbox\kanban-board\kanban\KanbanBoardWithSignalRAngularJSSol\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\firauso.Kyle-PC\Documents\sandbox\kanban-board\kanban\KanbanBoardWithSignalRAngularJSSol\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\firauso.Kyle-PC\Documents\sandbox\kanban-board\kanban\KanbanBoardWithSignalRAngularJSSol\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\firauso.Kyle-PC\Documents\sandbox\kanban-board\kanban\KanbanBoardWithSignalRAngularJSSol\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\firauso.Kyle-PC\Documents\sandbox\kanban-board\kanban\KanbanBoardWithSignalRAngularJSSol\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\firauso.Kyle-PC\Documents\sandbox\kanban-board\kanban\KanbanBoardWithSignalRAngularJSSol\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\firauso.Kyle-PC\Documents\sandbox\kanban-board\kanban\KanbanBoardWithSignalRAngularJSSol\bin\roslyn\System.AppContext.dll
+C:\Users\firauso.Kyle-PC\Documents\sandbox\kanban-board\kanban\KanbanBoardWithSignalRAngularJSSol\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\firauso.Kyle-PC\Documents\sandbox\kanban-board\kanban\KanbanBoardWithSignalRAngularJSSol\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\firauso.Kyle-PC\Documents\sandbox\kanban-board\kanban\KanbanBoardWithSignalRAngularJSSol\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\firauso.Kyle-PC\Documents\sandbox\kanban-board\kanban\KanbanBoardWithSignalRAngularJSSol\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\firauso.Kyle-PC\Documents\sandbox\kanban-board\kanban\KanbanBoardWithSignalRAngularJSSol\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\firauso.Kyle-PC\Documents\sandbox\kanban-board\kanban\KanbanBoardWithSignalRAngularJSSol\bin\roslyn\vbc.exe
+C:\Users\firauso.Kyle-PC\Documents\sandbox\kanban-board\kanban\KanbanBoardWithSignalRAngularJSSol\bin\roslyn\vbc.exe.config
+C:\Users\firauso.Kyle-PC\Documents\sandbox\kanban-board\kanban\KanbanBoardWithSignalRAngularJSSol\bin\roslyn\vbc.rsp
+C:\Users\firauso.Kyle-PC\Documents\sandbox\kanban-board\kanban\KanbanBoardWithSignalRAngularJSSol\bin\roslyn\VBCSCompiler.exe
+C:\Users\firauso.Kyle-PC\Documents\sandbox\kanban-board\kanban\KanbanBoardWithSignalRAngularJSSol\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\firauso.Kyle-PC\Documents\sandbox\kanban-board\kanban\KanbanBoardWithSignalRAngularJSSol\bin\EntityFramework.dll
+C:\Users\firauso.Kyle-PC\Documents\sandbox\kanban-board\kanban\KanbanBoardWithSignalRAngularJSSol\bin\EntityFramework.SqlServer.dll
+C:\Users\firauso.Kyle-PC\Documents\sandbox\kanban-board\kanban\KanbanBoardWithSignalRAngularJSSol\bin\HtmlAgilityPack.dll
+C:\Users\firauso.Kyle-PC\Documents\sandbox\kanban-board\kanban\KanbanBoardWithSignalRAngularJSSol\bin\Microsoft.AspNet.SignalR.Core.dll
+C:\Users\firauso.Kyle-PC\Documents\sandbox\kanban-board\kanban\KanbanBoardWithSignalRAngularJSSol\bin\Microsoft.AspNet.SignalR.Owin.dll
+C:\Users\firauso.Kyle-PC\Documents\sandbox\kanban-board\kanban\KanbanBoardWithSignalRAngularJSSol\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+C:\Users\firauso.Kyle-PC\Documents\sandbox\kanban-board\kanban\KanbanBoardWithSignalRAngularJSSol\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\firauso.Kyle-PC\Documents\sandbox\kanban-board\kanban\KanbanBoardWithSignalRAngularJSSol\bin\Microsoft.Owin.dll
+C:\Users\firauso.Kyle-PC\Documents\sandbox\kanban-board\kanban\KanbanBoardWithSignalRAngularJSSol\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\Users\firauso.Kyle-PC\Documents\sandbox\kanban-board\kanban\KanbanBoardWithSignalRAngularJSSol\bin\Microsoft.Owin.Security.dll
+C:\Users\firauso.Kyle-PC\Documents\sandbox\kanban-board\kanban\KanbanBoardWithSignalRAngularJSSol\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\firauso.Kyle-PC\Documents\sandbox\kanban-board\kanban\KanbanBoardWithSignalRAngularJSSol\bin\Newtonsoft.Json.dll
+C:\Users\firauso.Kyle-PC\Documents\sandbox\kanban-board\kanban\KanbanBoardWithSignalRAngularJSSol\bin\Owin.dll
+C:\Users\firauso.Kyle-PC\Documents\sandbox\kanban-board\kanban\KanbanBoardWithSignalRAngularJSSol\bin\System.Net.Http.Formatting.dll
+C:\Users\firauso.Kyle-PC\Documents\sandbox\kanban-board\kanban\KanbanBoardWithSignalRAngularJSSol\bin\System.Web.Helpers.dll
+C:\Users\firauso.Kyle-PC\Documents\sandbox\kanban-board\kanban\KanbanBoardWithSignalRAngularJSSol\bin\System.Web.Http.dll
+C:\Users\firauso.Kyle-PC\Documents\sandbox\kanban-board\kanban\KanbanBoardWithSignalRAngularJSSol\bin\System.Web.Http.WebHost.dll
+C:\Users\firauso.Kyle-PC\Documents\sandbox\kanban-board\kanban\KanbanBoardWithSignalRAngularJSSol\bin\System.Web.Mvc.dll
+C:\Users\firauso.Kyle-PC\Documents\sandbox\kanban-board\kanban\KanbanBoardWithSignalRAngularJSSol\bin\System.Web.Razor.dll
+C:\Users\firauso.Kyle-PC\Documents\sandbox\kanban-board\kanban\KanbanBoardWithSignalRAngularJSSol\bin\System.Web.WebPages.Deployment.dll
+C:\Users\firauso.Kyle-PC\Documents\sandbox\kanban-board\kanban\KanbanBoardWithSignalRAngularJSSol\bin\System.Web.WebPages.dll
+C:\Users\firauso.Kyle-PC\Documents\sandbox\kanban-board\kanban\KanbanBoardWithSignalRAngularJSSol\bin\System.Web.WebPages.Razor.dll
+C:\Users\firauso.Kyle-PC\Documents\sandbox\kanban-board\kanban\KanbanBoardWithSignalRAngularJSSol\bin\EntityFramework.xml
+C:\Users\firauso.Kyle-PC\Documents\sandbox\kanban-board\kanban\KanbanBoardWithSignalRAngularJSSol\bin\EntityFramework.SqlServer.xml
+C:\Users\firauso.Kyle-PC\Documents\sandbox\kanban-board\kanban\KanbanBoardWithSignalRAngularJSSol\bin\HtmlAgilityPack.pdb
+C:\Users\firauso.Kyle-PC\Documents\sandbox\kanban-board\kanban\KanbanBoardWithSignalRAngularJSSol\bin\HtmlAgilityPack.xml
+C:\Users\firauso.Kyle-PC\Documents\sandbox\kanban-board\kanban\KanbanBoardWithSignalRAngularJSSol\bin\Microsoft.AspNet.SignalR.Core.pdb
+C:\Users\firauso.Kyle-PC\Documents\sandbox\kanban-board\kanban\KanbanBoardWithSignalRAngularJSSol\bin\Microsoft.AspNet.SignalR.Core.xml
+C:\Users\firauso.Kyle-PC\Documents\sandbox\kanban-board\kanban\KanbanBoardWithSignalRAngularJSSol\bin\Microsoft.AspNet.SignalR.Owin.xml
+C:\Users\firauso.Kyle-PC\Documents\sandbox\kanban-board\kanban\KanbanBoardWithSignalRAngularJSSol\bin\Microsoft.AspNet.SignalR.SystemWeb.pdb
+C:\Users\firauso.Kyle-PC\Documents\sandbox\kanban-board\kanban\KanbanBoardWithSignalRAngularJSSol\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+C:\Users\firauso.Kyle-PC\Documents\sandbox\kanban-board\kanban\KanbanBoardWithSignalRAngularJSSol\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\firauso.Kyle-PC\Documents\sandbox\kanban-board\kanban\KanbanBoardWithSignalRAngularJSSol\bin\Microsoft.Owin.xml
+C:\Users\firauso.Kyle-PC\Documents\sandbox\kanban-board\kanban\KanbanBoardWithSignalRAngularJSSol\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\Users\firauso.Kyle-PC\Documents\sandbox\kanban-board\kanban\KanbanBoardWithSignalRAngularJSSol\bin\Microsoft.Owin.Security.xml
+C:\Users\firauso.Kyle-PC\Documents\sandbox\kanban-board\kanban\KanbanBoardWithSignalRAngularJSSol\bin\Newtonsoft.Json.pdb
+C:\Users\firauso.Kyle-PC\Documents\sandbox\kanban-board\kanban\KanbanBoardWithSignalRAngularJSSol\bin\Newtonsoft.Json.xml
+C:\Users\firauso.Kyle-PC\Documents\sandbox\kanban-board\kanban\KanbanBoardWithSignalRAngularJSSol\bin\System.Net.Http.Formatting.xml
+C:\Users\firauso.Kyle-PC\Documents\sandbox\kanban-board\kanban\KanbanBoardWithSignalRAngularJSSol\bin\System.Web.Helpers.xml
+C:\Users\firauso.Kyle-PC\Documents\sandbox\kanban-board\kanban\KanbanBoardWithSignalRAngularJSSol\bin\System.Web.Http.xml
+C:\Users\firauso.Kyle-PC\Documents\sandbox\kanban-board\kanban\KanbanBoardWithSignalRAngularJSSol\bin\System.Web.Http.WebHost.xml
+C:\Users\firauso.Kyle-PC\Documents\sandbox\kanban-board\kanban\KanbanBoardWithSignalRAngularJSSol\bin\System.Web.Mvc.xml
+C:\Users\firauso.Kyle-PC\Documents\sandbox\kanban-board\kanban\KanbanBoardWithSignalRAngularJSSol\bin\System.Web.Razor.xml
+C:\Users\firauso.Kyle-PC\Documents\sandbox\kanban-board\kanban\KanbanBoardWithSignalRAngularJSSol\bin\System.Web.WebPages.xml
+C:\Users\firauso.Kyle-PC\Documents\sandbox\kanban-board\kanban\KanbanBoardWithSignalRAngularJSSol\bin\System.Web.WebPages.Deployment.xml
+C:\Users\firauso.Kyle-PC\Documents\sandbox\kanban-board\kanban\KanbanBoardWithSignalRAngularJSSol\bin\System.Web.WebPages.Razor.xml
+C:\Users\firauso.Kyle-PC\Documents\sandbox\kanban-board\kanban\KanbanBoardWithSignalRAngularJSSol\obj\Debug\KanbanBoardWithSignalRAngularJSSol.csprojAssemblyReference.cache
+C:\Users\firauso.Kyle-PC\Documents\sandbox\kanban-board\kanban\KanbanBoardWithSignalRAngularJSSol\obj\Debug\KanbanBoardWithSignalRAngularJSSol.Migrations.tony.resources
+C:\Users\firauso.Kyle-PC\Documents\sandbox\kanban-board\kanban\KanbanBoardWithSignalRAngularJSSol\obj\Debug\KanbanBoardWithSignalRAngularJSSol.Migrations.tony2.resources
+C:\Users\firauso.Kyle-PC\Documents\sandbox\kanban-board\kanban\KanbanBoardWithSignalRAngularJSSol\obj\Debug\KanbanBoardWithSignalRAngularJSSol.Migrations._1.resources
+C:\Users\firauso.Kyle-PC\Documents\sandbox\kanban-board\kanban\KanbanBoardWithSignalRAngularJSSol\obj\Debug\KanbanBoardWithSignalRAngularJSSol.csproj.GenerateResource.cache
+C:\Users\firauso.Kyle-PC\Documents\sandbox\kanban-board\kanban\KanbanBoardWithSignalRAngularJSSol\obj\Debug\KanbanBoardWithSignalRAngularJSSol.csproj.CoreCompileInputs.cache
+C:\Users\firauso.Kyle-PC\Documents\sandbox\kanban-board\kanban\KanbanBoardWithSignalRAngularJSSol\obj\Debug\KanbanBoardWithSignalRAngularJSSol.csproj.CopyComplete
+C:\Users\firauso.Kyle-PC\Documents\sandbox\kanban-board\kanban\KanbanBoardWithSignalRAngularJSSol\obj\Debug\KanbanBoardWithSignalRAngularJSSol.dll
+C:\Users\firauso.Kyle-PC\Documents\sandbox\kanban-board\kanban\KanbanBoardWithSignalRAngularJSSol\obj\Debug\KanbanBoardWithSignalRAngularJSSol.pdb
+C:\Users\firauso.Kyle-PC\Documents\sandbox\kanban-board\kanban\KanbanBoardWithSignalRAngularJSSol\obj\Debug\KanbanBoardWithSignalRAngularJSSol.XmlSerializers.dll
+C:\Users\firauso.Kyle-PC\Downloads\kanban1\kanban\KanbanBoardWithSignalRAngularJSSol\obj\Debug\KanbanBoardWithSignalRAngularJSSol.csprojAssemblyReference.cache
+C:\Users\firauso.Kyle-PC\Downloads\kanban1\kanban\KanbanBoardWithSignalRAngularJSSol\obj\Debug\KanbanBoardWithSignalRAngularJSSol.Migrations.tony.resources
+C:\Users\firauso.Kyle-PC\Downloads\kanban1\kanban\KanbanBoardWithSignalRAngularJSSol\obj\Debug\KanbanBoardWithSignalRAngularJSSol.Migrations.tony2.resources
+C:\Users\firauso.Kyle-PC\Downloads\kanban1\kanban\KanbanBoardWithSignalRAngularJSSol\obj\Debug\KanbanBoardWithSignalRAngularJSSol.Migrations._1.resources
+C:\Users\firauso.Kyle-PC\Downloads\kanban1\kanban\KanbanBoardWithSignalRAngularJSSol\obj\Debug\KanbanBoardWithSignalRAngularJSSol.csproj.GenerateResource.cache
+C:\Users\firauso.Kyle-PC\Downloads\kanban1\kanban\KanbanBoardWithSignalRAngularJSSol\obj\Debug\KanbanBoardWithSignalRAngularJSSol.csproj.CoreCompileInputs.cache
+C:\Users\firauso.Kyle-PC\Downloads\kanban1\kanban\KanbanBoardWithSignalRAngularJSSol\obj\Debug\KanbanBoardWithSignalRAngularJSSol.dll
+C:\Users\firauso.Kyle-PC\Downloads\kanban1\kanban\KanbanBoardWithSignalRAngularJSSol\obj\Debug\KanbanBoardWithSignalRAngularJSSol.pdb
+C:\Users\firauso.Kyle-PC\Downloads\kanban1\kanban\KanbanBoardWithSignalRAngularJSSol\obj\Debug\KanbanBoardWithSignalRAngularJSSol.XmlSerializers.dll

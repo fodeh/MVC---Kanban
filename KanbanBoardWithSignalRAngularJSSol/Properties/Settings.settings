@@ -1,0 +1,12 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="KanbanBoardWithSignalRAngularJSSol.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="KanbanBoardWithSignalRAngularJSSol_ClarizenSvc_Clarizen" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">https://api2.clarizen.com/v2.0/Clarizen.svc</Value>
+    </Setting>
+    <Setting Name="KanbanBoardWithSignalRAngularJSSol_WebReference_SforceService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">https://login.salesforce.com/services/Soap/c/44.0/0DF0g000000kEOE</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/BCS.API.BusinessLogic.Messages.Mobile" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/BCS.API.BusinessLogic.Messages.Mobile" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="https://api2.clarizen.com/v2.0/Clarizen.svc?xsd=xsd0" namespace="http://clarizen.com/api" />
+  <xs:complexType name="AutomationResult">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q1="http://clarizen.com/api" base="q1:Result">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="OrganizationId" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="UserName" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="AutomationResult" nillable="true" type="tns:AutomationResult" />
+</xs:schema>

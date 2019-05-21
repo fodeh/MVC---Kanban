@@ -1,0 +1,36 @@
+﻿@model KanbanBoardWithSignalRAngularJSSol.Models.Task
+@using KanbanBoardWithSignalRAngularJSSol.Controllers;
+@using KanbanBoardWithSignalRAngularJSSol.WebReference;
+@{
+    ViewBag.Title = "Download";
+}
+
+<div style="width:80%; margin: 0 auto 0 auto;">
+    <h2>Download</h2>
+    <div class="form-horizontal" style="color:black">
+        <h4>Task</h4>
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+        @{
+            int numRecord = 0;
+            sObject[] recordsFiller = new sObject[numRecord];
+            string[] CaseNumArray = new string[200];
+            string[] SubjectArray = new string[200];
+            string[] DescArray = new string[200];
+            string[] OwnerArray = new string[200];
+            string[] CreatorArray = new string[200];
+            double[] TotalHoursArray = new double[200];
+            DateTime?[] CreatedDateArray = new DateTime?[200];
+
+            SalesForce sales = new SalesForce();
+            sales.InitializeAsync(numRecord, recordsFiller, CaseNumArray, SubjectArray, DescArray, OwnerArray, CreatorArray, CreatedDateArray, TotalHoursArray);
+            sales.logout();
+
+            sObject[] records = new sObject[numRecord];
+        }
+        <div>
+            <meta http-equiv="refresh" content="1; Index" />
+        </div>
+    </div>
+</div>

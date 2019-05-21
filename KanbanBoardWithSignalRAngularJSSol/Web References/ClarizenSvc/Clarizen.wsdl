@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://clarizen.com/api" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="Clarizen" targetNamespace="http://clarizen.com/api" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://clarizen.com/api/Imports">
+      <xsd:import schemaLocation="https://api2.clarizen.com/v2.0/Clarizen.svc?xsd=xsd0" namespace="http://clarizen.com/api" />
+      <xsd:import schemaLocation="https://api2.clarizen.com/v2.0/Clarizen.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="https://api2.clarizen.com/v2.0/Clarizen.svc?xsd=xsd2" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+      <xsd:import schemaLocation="https://api2.clarizen.com/v2.0/Clarizen.svc?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/BCS.API.BusinessLogic.Messages.Mobile" />
+      <xsd:import schemaLocation="https://api2.clarizen.com/v2.0/Clarizen.svc?xsd=xsd4" namespace="http://schemas.datacontract.org/2004/07/BCS.API.BusinessLogic.Messages.Reports" />
+      <xsd:import schemaLocation="https://api2.clarizen.com/v2.0/Clarizen.svc?xsd=xsd5" namespace="http://schemas.datacontract.org/2004/07/BCS.Core.Data" />
+      <xsd:import schemaLocation="https://api2.clarizen.com/v2.0/Clarizen.svc?xsd=xsd6" namespace="http://schemas.datacontract.org/2004/07/BCS.GenericLogic" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IClarizen_Login_InputMessage">
+    <wsdl:part name="parameters" element="tns:Login" />
+  </wsdl:message>
+  <wsdl:message name="IClarizen_Login_OutputMessage">
+    <wsdl:part name="parameters" element="tns:LoginResponse" />
+  </wsdl:message>
+  <wsdl:message name="IClarizen_Login_OutputMessage_Headers">
+    <wsdl:part name="Session" element="tns:Session" />
+  </wsdl:message>
+  <wsdl:message name="IClarizen_Login_LoginFailureFault_FaultMessage">
+    <wsdl:part name="detail" element="tns:LoginFailure" />
+  </wsdl:message>
+  <wsdl:message name="IClarizen_Logout_InputMessage">
+    <wsdl:part name="parameters" element="tns:Logout" />
+  </wsdl:message>
+  <wsdl:message name="IClarizen_Logout_InputMessage_Headers">
+    <wsdl:part name="Session" element="tns:Session" />
+  </wsdl:message>
+  <wsdl:message name="IClarizen_Metadata_InputMessage">
+    <wsdl:part name="parameters" element="tns:Metadata" />
+  </wsdl:message>
+  <wsdl:message name="IClarizen_Metadata_InputMessage_Headers">
+    <wsdl:part name="Session" element="tns:Session" />
+  </wsdl:message>
+  <wsdl:message name="IClarizen_Metadata_OutputMessage">
+    <wsdl:part name="parameters" element="tns:MetadataResponse" />
+  </wsdl:message>
+  <wsdl:message name="IClarizen_Metadata_SessionTimeoutFailureFault_FaultMessage">
+    <wsdl:part name="detail" element="tns:SessionTimeoutFailure" />
+  </wsdl:message>
+  <wsdl:message name="IClarizen_Execute_InputMessage">
+    <wsdl:part name="parameters" element="tns:Execute" />
+  </wsdl:message>
+  <wsdl:message name="IClarizen_Execute_InputMessage_Headers">
+    <wsdl:part name="Session" element="tns:Session" />
+    <wsdl:part name="Options" element="tns:Options" />
+    <wsdl:part name="Info" element="tns:Info" />
+  </wsdl:message>
+  <wsdl:message name="IClarizen_Execute_OutputMessage">
+    <wsdl:part name="parameters" element="tns:ExecuteResponse" />
+  </wsdl:message>
+  <wsdl:message name="IClarizen_Execute_SessionTimeoutFailureFault_FaultMessage">
+    <wsdl:part name="detail" element="tns:SessionTimeoutFailure" />
+  </wsdl:message>
+  <wsdl:message name="IClarizen_GetServerDefinition_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetServerDefinition" />
+  </wsdl:message>
+  <wsdl:message name="IClarizen_GetServerDefinition_InputMessage_Headers">
+    <wsdl:part name="Session" element="tns:Session" />
+  </wsdl:message>
+  <wsdl:message name="IClarizen_GetServerDefinition_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetServerDefinitionResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IClarizen">
+    <wsdl:documentation>Contains the operations exposed by the Clarizen web service</wsdl:documentation>
+    <wsdl:operation name="Login">
+      <wsdl:documentation>Logs in to the Clarizen API server and starts a session
+@param userName Login user name
+@param password Login password
+@param options Additional options such as partnerId and applicationId
+@return a &lt;see cref="LoginResult" /&gt; with the new session Id</wsdl:documentation>
+      <wsdl:input wsaw:Action="http://clarizen.com/api/IClarizen/Login" message="tns:IClarizen_Login_InputMessage" />
+      <wsdl:output wsaw:Action="http://clarizen.com/api/IClarizen/LoginResponse" message="tns:IClarizen_Login_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://clarizen.com/api/IClarizen/LoginLoginFailureFault" name="LoginFailureFault" message="tns:IClarizen_Login_LoginFailureFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Logout">
+      <wsdl:documentation>Terminates an active web services session</wsdl:documentation>
+      <wsdl:input wsaw:Action="http://clarizen.com/api/IClarizen/Logout" message="tns:IClarizen_Logout_InputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Metadata">
+      <wsdl:documentation>Executes a Metadata request. This is the same as sending a &lt;see cref="MetadataMessage" /&gt; to the &lt;see cref="Execute" /&gt; method
+@param request a Metadata request
+@return Returns an instance of a &lt;see cref="Result" /&gt;. You must cast this to the specific instance corresponding to the &lt;c&gt;request&lt;/c&gt; parameter.</wsdl:documentation>
+      <wsdl:input wsaw:Action="http://clarizen.com/api/IClarizen/Metadata" message="tns:IClarizen_Metadata_InputMessage" />
+      <wsdl:output wsaw:Action="http://clarizen.com/api/IClarizen/MetadataResponse" message="tns:IClarizen_Metadata_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://clarizen.com/api/IClarizen/MetadataSessionTimeoutFailureFault" name="SessionTimeoutFailureFault" message="tns:IClarizen_Metadata_SessionTimeoutFailureFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Execute">
+      <wsdl:documentation>Perform operations against the Clarizen web services
+@param request An array of requests derived from &lt;see cref="BaseMessage" /&gt;
+@return An array of &lt;see cref="Result" /&gt; corresponsding to each request. You must cast each result to the specific instance that corresponds to the request parameter. See the remarks section for more information</wsdl:documentation>
+      <wsdl:input wsaw:Action="http://clarizen.com/api/IClarizen/Execute" message="tns:IClarizen_Execute_InputMessage" />
+      <wsdl:output wsaw:Action="http://clarizen.com/api/IClarizen/ExecuteResponse" message="tns:IClarizen_Execute_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://clarizen.com/api/IClarizen/ExecuteSessionTimeoutFailureFault" name="SessionTimeoutFailureFault" message="tns:IClarizen_Execute_SessionTimeoutFailureFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetServerDefinition">
+      <wsdl:input wsaw:Action="http://clarizen.com/api/IClarizen/GetServerDefinition" message="tns:IClarizen_GetServerDefinition_InputMessage" />
+      <wsdl:output wsaw:Action="http://clarizen.com/api/IClarizen/GetServerDefinitionResponse" message="tns:IClarizen_GetServerDefinition_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="Clarizen" type="tns:IClarizen">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="Login">
+      <soap:operation soapAction="http://clarizen.com/api/IClarizen/Login" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:header message="tns:IClarizen_Login_OutputMessage_Headers" part="Session" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="LoginFailureFault">
+        <soap:fault use="literal" name="LoginFailureFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="Logout">
+      <soap:operation soapAction="http://clarizen.com/api/IClarizen/Logout" style="document" />
+      <wsdl:input>
+        <soap:header message="tns:IClarizen_Logout_InputMessage_Headers" part="Session" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+    </wsdl:operation>
+    <wsdl:operation name="Metadata">
+      <soap:operation soapAction="http://clarizen.com/api/IClarizen/Metadata" style="document" />
+      <wsdl:input>
+        <soap:header message="tns:IClarizen_Metadata_InputMessage_Headers" part="Session" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="SessionTimeoutFailureFault">
+        <soap:fault use="literal" name="SessionTimeoutFailureFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="Execute">
+      <soap:operation soapAction="http://clarizen.com/api/IClarizen/Execute" style="document" />
+      <wsdl:input>
+        <soap:header message="tns:IClarizen_Execute_InputMessage_Headers" part="Session" use="literal" />
+        <soap:header message="tns:IClarizen_Execute_InputMessage_Headers" part="Options" use="literal" />
+        <soap:header message="tns:IClarizen_Execute_InputMessage_Headers" part="Info" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="SessionTimeoutFailureFault">
+        <soap:fault use="literal" name="SessionTimeoutFailureFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GetServerDefinition">
+      <soap:operation soapAction="http://clarizen.com/api/IClarizen/GetServerDefinition" style="document" />
+      <wsdl:input>
+        <soap:header message="tns:IClarizen_GetServerDefinition_InputMessage_Headers" part="Session" use="literal" />
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="Clarizen">
+    <wsdl:port name="Clarizen" binding="tns:Clarizen">
+      <soap:address location="https://api2.clarizen.com/v2.0/Clarizen.svc" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

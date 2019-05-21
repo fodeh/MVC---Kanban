@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/BCS.GenericLogic" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/BCS.GenericLogic" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="https://api2.clarizen.com/v2.0/Clarizen.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+  <xs:simpleType name="ReportOperator">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Equals" />
+      <xs:enumeration value="NotEqual" />
+      <xs:enumeration value="In" />
+      <xs:enumeration value="NotIn" />
+      <xs:enumeration value="MoreThan" />
+      <xs:enumeration value="LessThan" />
+      <xs:enumeration value="Before" />
+      <xs:enumeration value="After" />
+      <xs:enumeration value="BeginsWith" />
+      <xs:enumeration value="EndsWith" />
+      <xs:enumeration value="TextualContains" />
+      <xs:enumeration value="Between" />
+      <xs:enumeration value="Contains" />
+      <xs:enumeration value="TextualNotContains" />
+      <xs:enumeration value="NotBetween" />
+      <xs:enumeration value="MoreThanEquals">
+        <xs:annotation>
+          <xs:appinfo>
+            <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">20</EnumerationValue>
+          </xs:appinfo>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="LessThanEquals">
+        <xs:annotation>
+          <xs:appinfo>
+            <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">21</EnumerationValue>
+          </xs:appinfo>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="TextualRegExpContains">
+        <xs:annotation>
+          <xs:appinfo>
+            <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">22</EnumerationValue>
+          </xs:appinfo>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="AfterOrEquals">
+        <xs:annotation>
+          <xs:appinfo>
+            <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">23</EnumerationValue>
+          </xs:appinfo>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="BeforeOrEquals">
+        <xs:annotation>
+          <xs:appinfo>
+            <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">24</EnumerationValue>
+          </xs:appinfo>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="Blanks">
+        <xs:annotation>
+          <xs:appinfo>
+            <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">100</EnumerationValue>
+          </xs:appinfo>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="OnlyBlanks">
+        <xs:annotation>
+          <xs:appinfo>
+            <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">101</EnumerationValue>
+          </xs:appinfo>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="MatchesCurrency">
+        <xs:annotation>
+          <xs:appinfo>
+            <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">102</EnumerationValue>
+          </xs:appinfo>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="NotMatchedCurrency">
+        <xs:annotation>
+          <xs:appinfo>
+            <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">103</EnumerationValue>
+          </xs:appinfo>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="NonBlanks">
+        <xs:annotation>
+          <xs:appinfo>
+            <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">200</EnumerationValue>
+          </xs:appinfo>
+        </xs:annotation>
+      </xs:enumeration>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="ReportOperator" nillable="true" type="tns:ReportOperator" />
+  <xs:simpleType name="CountType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Number" />
+      <xs:enumeration value="Percent" />
+      <xs:enumeration value="Custom" />
+      <xs:enumeration value="CustomPercent" />
+      <xs:enumeration value="Sum" />
+      <xs:enumeration value="Avg" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="CountType" nillable="true" type="tns:CountType" />
+  <xs:simpleType name="HighChartType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Standard" />
+      <xs:enumeration value="Stacked" />
+      <xs:enumeration value="Cluster" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="HighChartType" nillable="true" type="tns:HighChartType" />
+  <xs:simpleType name="ChartType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Pie" />
+      <xs:enumeration value="Column" />
+      <xs:enumeration value="Bar" />
+      <xs:enumeration value="Line" />
+      <xs:enumeration value="Bubble" />
+      <xs:enumeration value="Scatter" />
+      <xs:enumeration value="TraditionalScatter" />
+      <xs:enumeration value="Gauge" />
+      <xs:enumeration value="Horizontal" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="ChartType" nillable="true" type="tns:ChartType" />
+</xs:schema>

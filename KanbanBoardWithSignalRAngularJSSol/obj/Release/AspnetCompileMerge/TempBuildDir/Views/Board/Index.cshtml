@@ -1,0 +1,60 @@
+﻿@model IEnumerable<KanbanBoardWithSignalRAngularJSSol.Models.Task>
+@{
+    ViewBag.Title = "Index";
+    var CurrentTime = (string)ViewBag.CurrentTime;
+}
+@*<script type="text/javascript" src="http://livejs.com/live.js"></script>*@
+<link href="@Url.Content("~/Content/Site.css")" rel="stylesheet" type="text/css" />
+
+<div style="width:90%; margin: 0 auto 0 auto;">
+    <label class="pull-right" style="margin:10px 130px auto auto;">
+        Filter on Employee Name:
+        @Html.DropDownList("searchText", new SelectList(ViewBag.employees, "EmployeeName", "EmployeeName"), "", new { ng_model = "searchText" })
+        @*<input ng-model="searchText" />*@
+    </label>
+    <div>
+        @Html.ActionLink("Create New Task", "Create", null, new { @class = "btn btn-primary btn-sm" })
+    </div>
+    <div class="row" ng-controller="boardCtrl">
+
+        <div ng-include="'/AppScript/busyModal.html'" ng-show="isLoading"></div>
+
+        <div class="col-lg-3 panel panel-primary colStyle" id="{{col.Id}}" kanban-board-drop="over"
+             ng-repeat="col in columns">
+            <div class="panel-heading" style="margin-bottom: 10px;">
+                <h3 class="panel-title">{{col.Name}}</h3>
+                @*<h3 ng-if="col.Name != 'Completed'" class="panel-title">{{col.Name}}</h3>
+                <h3 ng-if="col.Name == 'Completed'" class="panel-title">
+                    {{col.Name}}
+                    <input style="padding:0; margin:0; height:20px; width:auto; background-color:#428bca;" type="date" id="exampleInput" name="input" ng-model="example.value" placeholder="yyyy-MM-dd" min="2017-07-01" />
+                </h3>*@
+            </div>
+            <div class="thumbnail" draggable="true" kanban-board-dragg="task"
+                 ng-repeat="task in col.Tasks | filter:searchText" ng-if="task.CompletionDate < task.CurrentDate+30 || task.CompletionDate == null" style="margin-bottom: 2px;">
+                <div class="caption">
+                    <div style="border: 2px solid #000000; padding: 4px; margin:0px;">
+                        <h5 style="padding:0; margin:0;"><strong>Task: </strong>{{task.Name}}</h5>
+                        <p style="padding:0; margin:0;"><strong>Description: </strong> {{task.Description}}</p>
+                        <p style="padding:0; margin:0;"><strong>Assigned by: </strong> {{task.PmAssignedBy}}</p>
+                        <p style=" padding:0; margin:0;"><strong>Start Date: </strong> {{task.StartDate | date : 'MM/dd/yyyy'}}</p>
+                        <p ng-if="task.DueDate < task.CurrentDate && task.CompletionDate == null" style="background-color:red; padding:0; margin:0;"><strong>Due Date: </strong> {{task.DueDate | date : 'MM/dd/yyyy'}}</p>
+                        <p ng-if="(task.DueDate | date : 'MM/dd/yyyy') > (task.CurrentDate| date : 'MM/dd/yyyy') && (task.DueDate| date : 'MM/dd/yyyy') <= (task.CurrentDatePlus3| date : 'MM/dd/yyyy') && task.CompletionDate == null" style="background-color:yellow; padding:0; margin:0;"><strong>Due Date: </strong> {{task.DueDate | date : 'MM/dd/yyyy'}}</p>
+                        <p ng-if="task.DueDate > task.CurrentDatePlus3 || task.CompletionDate != null" style="background-color:white; padding:0; margin:0;"><strong>Due Date: </strong> {{task.DueDate | date : 'MM/dd/yyyy'}}</p>
+                        <p ng-if="task.CompletionDate != null" style="padding:0; margin:0;"><strong>Completion Date: </strong> {{task.CompletionDate | date : 'MM/dd/yyyy'}}</p>
+                        @*<p style="padding:0; margin:0;"><strong>Due Date: </strong> @CurrentTime </p>*@
+                    </div>
+                    <div style="border: 2px hidden #000000; padding: 4px; margin:0px">
+                        <p style="padding:0; margin:0;"><strong>Percentage Complete: </strong> {{task.PercentageComplete}}%</p>
+                        <p style="padding:0; margin:0;"><strong> Work: </strong> {{task.selectedHours}}h</p>
+                        <p style="padding:0; margin:0;"><strong>Employee Name: </strong> {{task.EmployeeName}} </p>
+                        <p><img data-ng-src="data:image/PNG;base64,{{task.EmployeeImage}}" alt="" style="width: 50px; height: 50px;"></p>
+                        @*<p><img src="@(Url.Content("~/content/Images/")){{task.EmployeeId}}.png" alt="" style="width: 50px; height: 50px;" /> </p>*@
+                        <a data-ng-href="@Url.Action("Edit", "Board")/{{task.Id}}" class="btn btn-primary btn-sm">Edit  </a>
+                        <a data-ng-href="@Url.Action("Delete", "Board")/{{task.Id}}" class="btn btn-primary btn-sm">Delete  </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>

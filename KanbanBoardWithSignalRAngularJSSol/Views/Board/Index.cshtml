@@ -1,0 +1,62 @@
+﻿@model IEnumerable<KanbanBoardWithSignalRAngularJSSol.Models.Task>
+@{ ViewBag.Title = "Index"; var CurrentTime = (string)ViewBag.CurrentTime;}
+
+<link href="@Url.Content("~/Content/Site.css")" rel="stylesheet" type="text/css" /> @*Don't remove. Helps with css formatting*@
+
+<div style="width:90%; margin: 0 auto 0 auto;">
+    @*Begining of page rendering*@
+    <label class="pull-right" style="color: white; float: right; margin-left: 40px; margin:10px 130px auto auto;">
+        @*Controls label and drop list for employee name*@
+        Filter on Employee Name:
+        @Html.DropDownList("searchText", new SelectList(ViewBag.employees, "EmployeeName", "EmployeeName"), "", new { ng_model = "searchText" })
+    </label>
+    <div>
+        @*Creates buttons for creating and downloading tasks*@
+        @Html.ActionLink("Employee Tasks", "Index", "Board", new { area = "" }, new { @class = "navbar-brand" })
+        @Html.ActionLink("Create New Task", "Create", null, new { @class = "btn btn-primary btn-sm" })
+        @Html.ActionLink("Download", "Download", null, new { @class = "btn btn-primary btn-sm" })
+    </div>
+    <div class="row" ng-controller="boardCtrl" style="background: #808080; width:100%" id="panelLoad;">
+        @*Contains black box that holds the panels*@
+        <div ng-include="'/AppScript/busyModal.html'" ng-show="isLoading"></div> @*Loading sign during.....loading*@
+        <div class="col-md-2.4 panel panel-primary colStyle" id="{{col.Id}}" kanban-board-drop="over" ng-repeat="col in columns" style="background:#000000;border-color:ActiveBorder;">
+            @*Creates panels and formats them*@
+            <div class="panel-heading" style="margin-bottom: 10px; border-color: white; background: #0026ff;">
+                @*Sets panel headings*@
+                <h3 class="panel-title" style="border-color: #0026ff">{{col.Name}}</h3> @*Places column names on panel headings*@
+            </div>
+            <div class="thumbnail" draggable="true" kanban-board-dragg="task" ng-repeat="task in col.Tasks | filter:searchText" ng-if="task.CompletionDate < task.CurrentDate+30 || task.CompletionDate == null" style="margin-bottom: 1px; background: white; color: black">
+                @*Creates task and sets formating*@
+                <div class="caption">
+                    @*Actual object: Contains task and edit/delete buttons*@
+                    <div style="border: 2px solid #000000; padding: 4px; margin:0px;">
+                        @*Conains and formats tasks*@
+                        <p><img data-ng-src="data:image/PNG;base64,{{task.EmployeeImage}}" alt="" style=" width: 60px; height: 60px; padding:0; margin:0" align="right"><strong>    Task: </strong>{{task.Name}}</p>
+                        <p style="padding:0; margin:0; position:relative; bottom: 10px"><strong>Case Number: </strong> {{task.CaseNumber}}</p>
+                        <p ng-if="task.DueDate < task.CurrentDate && task.CompletionDate == null" style="background-color:red; padding:0; margin:0;width: 150px; position:relative; bottom: 10px"><strong>Due Date: </strong> {{task.DueDate | date : 'MM/dd/yyyy'}}</p>
+                        <p ng-if="(task.DueDate | date : 'MM/dd/yyyy') > (task.CurrentDate| date : 'MM/dd/yyyy') && (task.DueDate| date : 'MM/dd/yyyy') <= (task.CurrentDatePlus3| date : 'MM/dd/yyyy') && task.CompletionDate == null" style="background-color:yellow;width: 150px; padding:0; margin:0; position:relative; bottom: 10px"><strong>Due Date: </strong> {{task.DueDate | date : 'MM/dd/yyyy'}}</p>
+                        <p ng-if="task.DueDate > task.CurrentDatePlus3 || task.CompletionDate != null" style="background-color:white; padding:0; margin:0;width: 150px; position:relative; bottom: 10px"><strong>Due Date: </strong> {{task.DueDate | date : 'MM/dd/yyyy'}}</p>
+                        <p ng-if="task.CompletionDate != null" style="width: 175px; padding:0;position:relative; bottom: 10px; margin:0;"><strong>Completion Date: </strong> {{task.CompletionDate | date : 'MM/dd/yyyy'}}</p>
+                        <a href="#" style="position:relative; bottom: 10px" data-toggle="tooltip" title="{{task.Description}} Assigned by: {{task.PmAssignedBy}} Owner: {{task.EmployeeName}} Hours: {{task.selectedHours}}">Details</a> @*tooltip: the details that show when hovered over*@
+                    </div>
+                    <div style="border: 2px hidden #000000; padding: 4px; margin:0px; background: black">
+                        @*Creates and formats buttons for editing and deleting tasks*@
+                        <a data-ng-href="@Url.Action("Edit", "Board")/{{task.Id}}" class="btn btn-primary btn-sm">Edit  </a>
+                        <a data-ng-href="@Url.Action("Delete", "Board")/{{task.Id}}" class="btn btn-primary btn-sm">Delete  </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<script type="text/javascript">
+ @*Script that creates a function to refresh the page automatically.*@
+    function timedRefresh(timeoutPeriod) {
+        setTimeout(function () {
+            location.reload(true);
+        }, timeoutPeriod);
+    }
+</script>
+<body onload="JavaScript:timedRefresh(3600000);">
+    @*refreshes page every 10 minutes to update any db changes*@
+</body>

@@ -1,0 +1,110 @@
+﻿@model IEnumerable<KanbanBoardWithSignalRAngularJSSol.Models.Task>
+
+@{
+    ViewBag.Title = "Index";
+}
+<div style="width:90%; margin: 0 auto 0 auto;">
+    <h2>All Tasks</h2>
+
+    <table class="table">
+        <tr style="color:white">
+            <th>
+                @Html.DisplayNameFor(model => model.Name)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Description)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.StartDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DueDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.selectedHours)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.EmployeeName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.EmployeeImage)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PmAssignedBy)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PercentageComplete)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CaseNumber)
+            </th>
+
+            <th>
+                @Html.DisplayNameFor(model => model.CompletionDate)
+            </th>
+
+
+        </tr>
+
+        @foreach (var item in Model.OrderBy(i => i.DueDate))
+        {
+        <tr style="color:white">
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Description)
+            </td>
+            <td>
+                @if (item.StartDate.HasValue)
+                {
+                    @item.StartDate.Value.ToString("MM/dd/yyyy")
+                }
+            </td>
+            <td>
+                @if (item.DueDate.HasValue)
+                {
+                    @item.DueDate.Value.ToString("MM/dd/yyyy")
+                }
+
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.selectedHours) h
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EmployeeName)
+            </td>
+            <td>
+                <form method="post" enctype="multipart/form-data">
+                    @{
+                        if (item.EmployeeImage != null)
+                        {
+                            string imageBase64 = Convert.ToBase64String(item.EmployeeImage);
+                            string imageSrc = string.Format("data:image/gif;base64,{0}", imageBase64);
+                            <img src="@imageSrc" width="50" height="50" />
+                        }
+                    }
+                </form>
+
+
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PmAssignedBy)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PercentageComplete)%
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.CaseNumber)%
+            </td>
+            <td>
+                @if (item.CompletionDate.HasValue)
+                {
+                    @item.CompletionDate.Value.ToString("MM/dd/yyyy")
+                }
+            </td>
+        </tr>
+        }
+
+    </table>
+</div>

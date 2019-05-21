@@ -1,0 +1,564 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/BCS.API.BusinessLogic.Messages.Reports" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/BCS.API.BusinessLogic.Messages.Reports" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="https://api2.clarizen.com/v2.0/Clarizen.svc?xsd=xsd2" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+  <xs:import schemaLocation="https://api2.clarizen.com/v2.0/Clarizen.svc?xsd=xsd0" namespace="http://clarizen.com/api" />
+  <xs:import schemaLocation="https://api2.clarizen.com/v2.0/Clarizen.svc?xsd=xsd5" namespace="http://schemas.datacontract.org/2004/07/BCS.Core.Data" />
+  <xs:import schemaLocation="https://api2.clarizen.com/v2.0/Clarizen.svc?xsd=xsd6" namespace="http://schemas.datacontract.org/2004/07/BCS.GenericLogic" />
+  <xs:complexType name="LineChartDataResult">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:BaseChartDataResult">
+        <xs:sequence>
+          <xs:element xmlns:q1="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="Categories" nillable="true" type="q1:ArrayOfstring" />
+          <xs:element minOccurs="0" name="IsYAxisPercent" type="xs:boolean" />
+          <xs:element minOccurs="0" name="IsYAxisReversed" type="xs:boolean" />
+          <xs:element minOccurs="0" name="Series" nillable="true" type="tns:ArrayOfChartSeriesData" />
+          <xs:element minOccurs="0" name="XAxisTitle" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="YAxisDisplayUnit" type="tns:DisplayUnit" />
+          <xs:element minOccurs="0" name="YAxisTitle" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="LineChartDataResult" nillable="true" type="tns:LineChartDataResult" />
+  <xs:complexType name="BaseChartDataResult">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q2="http://clarizen.com/api" base="q2:Result">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="ReportName" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="ReportObjectId" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="BaseChartDataResult" nillable="true" type="tns:BaseChartDataResult" />
+  <xs:complexType name="BarChartDataResult">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:BaseChartDataResult">
+        <xs:sequence>
+          <xs:element xmlns:q3="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="Categories" nillable="true" type="q3:ArrayOfstring" />
+          <xs:element minOccurs="0" name="GroupingType" type="tns:BarChartGroupingType" />
+          <xs:element minOccurs="0" name="IsYAxisPercent" type="xs:boolean" />
+          <xs:element minOccurs="0" name="IsYAxisReversed" type="xs:boolean" />
+          <xs:element minOccurs="0" name="Series" nillable="true" type="tns:ArrayOfChartSeriesData" />
+          <xs:element minOccurs="0" name="XAxisTitle" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="YAxisDisplayUnit" type="tns:DisplayUnit" />
+          <xs:element minOccurs="0" name="YAxisTitle" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="BarChartDataResult" nillable="true" type="tns:BarChartDataResult" />
+  <xs:simpleType name="BarChartGroupingType">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="None" />
+      <xs:enumeration value="Cluster" />
+      <xs:enumeration value="Stacked" />
+      <xs:enumeration value="Standard" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="BarChartGroupingType" nillable="true" type="tns:BarChartGroupingType" />
+  <xs:complexType name="ArrayOfChartSeriesData">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="ChartSeriesData" nillable="true" type="tns:ChartSeriesData" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfChartSeriesData" nillable="true" type="tns:ArrayOfChartSeriesData" />
+  <xs:complexType name="ChartSeriesData">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Color" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Values" nillable="true" type="tns:ArrayOfChartSeriesValue" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ChartSeriesData" nillable="true" type="tns:ChartSeriesData" />
+  <xs:complexType name="ArrayOfChartSeriesValue">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="ChartSeriesValue" nillable="true" type="tns:ChartSeriesValue" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfChartSeriesValue" nillable="true" type="tns:ArrayOfChartSeriesValue" />
+  <xs:complexType name="ChartSeriesValue">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Color" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="IsNull" type="xs:boolean" />
+      <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Value" type="xs:double" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ChartSeriesValue" nillable="true" type="tns:ChartSeriesValue" />
+  <xs:simpleType name="DisplayUnit">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="None" />
+      <xs:enumeration value="Auto" />
+      <xs:enumeration value="Hundreds" />
+      <xs:enumeration value="Thousands" />
+      <xs:enumeration value="Millions" />
+      <xs:enumeration value="Billions" />
+      <xs:enumeration value="Trillions" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="DisplayUnit" nillable="true" type="tns:DisplayUnit" />
+  <xs:complexType name="GetReportDefinitionResult">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q4="http://clarizen.com/api" base="q4:Result">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="ReportDefinition" nillable="true" type="tns:ReportDefinition" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="GetReportDefinitionResult" nillable="true" type="tns:GetReportDefinitionResult" />
+  <xs:complexType name="ReportDefinition">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Id" nillable="true" type="xs:string">
+        <xs:annotation>
+          <xs:appinfo />
+          <xs:documentation>Report Id</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string">
+        <xs:annotation>
+          <xs:appinfo />
+          <xs:documentation>Report name</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="0" name="ReportParameters" nillable="true" type="tns:ArrayOfReportParameter">
+        <xs:annotation>
+          <xs:appinfo />
+          <xs:documentation>Report parameters</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="0" name="Tabs" nillable="true" type="tns:ArrayOfReportTab">
+        <xs:annotation>
+          <xs:appinfo />
+          <xs:documentation>Report tabs</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ReportDefinition" nillable="true" type="tns:ReportDefinition" />
+  <xs:complexType name="ArrayOfReportParameter">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="ReportParameter" nillable="true" type="tns:ReportParameter" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfReportParameter" nillable="true" type="tns:ArrayOfReportParameter" />
+  <xs:complexType name="ReportParameter">
+    <xs:sequence>
+      <xs:element xmlns:q5="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="AvailableValueUnits" nillable="true" type="q5:ArrayOfstring" />
+      <xs:element xmlns:q6="http://schemas.datacontract.org/2004/07/BCS.Core.Data" minOccurs="0" name="DataType" type="q6:DataType" />
+      <xs:element minOccurs="0" name="DefaultValue" nillable="true" type="xs:anyType">
+        <xs:annotation>
+          <xs:appinfo />
+          <xs:documentation>Default parameter value</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="0" name="DisplayName" nillable="true" type="xs:string">
+        <xs:annotation>
+          <xs:appinfo />
+          <xs:documentation>The parameter field full display name</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="0" name="EntityType" nillable="true" type="xs:string">
+        <xs:annotation>
+          <xs:appinfo />
+          <xs:documentation>If Type is Entity, defines the entity type</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="0" name="FieldName" nillable="true" type="xs:string">
+        <xs:annotation>
+          <xs:appinfo />
+          <xs:documentation>The parameter field API name</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element xmlns:q7="http://clarizen.com/api" minOccurs="0" name="FieldType" type="q7:FieldType">
+        <xs:annotation>
+          <xs:appinfo />
+          <xs:documentation>The the parameter field type</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="0" name="FilterClassType" nillable="true" type="xs:string">
+        <xs:annotation>
+          <xs:appinfo />
+          <xs:documentation>Class type of field to which filter corresponds to</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="0" name="Id" nillable="true" type="xs:string">
+        <xs:annotation>
+          <xs:appinfo />
+          <xs:documentation>The parameter unique Id</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="0" name="IsPickup" type="xs:boolean" />
+      <xs:element xmlns:q8="http://schemas.datacontract.org/2004/07/BCS.GenericLogic" minOccurs="0" name="Operator" type="q8:ReportOperator">
+        <xs:annotation>
+          <xs:appinfo />
+          <xs:documentation>The filter operator</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element xmlns:q9="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="Restrictions" nillable="true" type="q9:ArrayOfKeyValueOfstringanyType" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ReportParameter" nillable="true" type="tns:ReportParameter" />
+  <xs:complexType name="ReportParameterPickListValues">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Type" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Values" nillable="true" type="tns:ArrayOfReportParameterPickListValue" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ReportParameterPickListValues" nillable="true" type="tns:ReportParameterPickListValues" />
+  <xs:complexType name="ArrayOfReportParameterPickListValue">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="ReportParameterPickListValue" nillable="true" type="tns:ReportParameterPickListValue" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfReportParameterPickListValue" nillable="true" type="tns:ArrayOfReportParameterPickListValue" />
+  <xs:complexType name="ReportParameterPickListValue">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="DisplayName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Id" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ReportParameterPickListValue" nillable="true" type="tns:ReportParameterPickListValue" />
+  <xs:complexType name="ReportParameterBooleanValue">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Type" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Value" nillable="true" type="xs:boolean" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ReportParameterBooleanValue" nillable="true" type="tns:ReportParameterBooleanValue" />
+  <xs:complexType name="ArrayOfReportTab">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="ReportTab" nillable="true" type="tns:ReportTab" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfReportTab" nillable="true" type="tns:ArrayOfReportTab" />
+  <xs:complexType name="ReportTab">
+    <xs:annotation>
+      <xs:appinfo />
+      <xs:documentation>Report tab</xs:documentation>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Charts" nillable="true" type="tns:ArrayOfReportChart">
+        <xs:annotation>
+          <xs:appinfo />
+          <xs:documentation>Report tab charts</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="0" name="Id" nillable="true" type="xs:string">
+        <xs:annotation>
+          <xs:appinfo />
+          <xs:documentation>Report tab Id</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="0" name="Index" type="xs:int">
+        <xs:annotation>
+          <xs:appinfo />
+          <xs:documentation>Report tab index</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string">
+        <xs:annotation>
+          <xs:appinfo />
+          <xs:documentation>Report tab name</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ReportTab" nillable="true" type="tns:ReportTab" />
+  <xs:complexType name="ArrayOfReportChart">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="ReportChart" nillable="true" type="tns:ReportChart" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfReportChart" nillable="true" type="tns:ArrayOfReportChart" />
+  <xs:complexType name="ReportChart">
+    <xs:annotation>
+      <xs:appinfo />
+      <xs:documentation>Report chart definition</xs:documentation>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element xmlns:q10="http://schemas.datacontract.org/2004/07/BCS.GenericLogic" minOccurs="0" name="CountType" type="q10:CountType">
+        <xs:annotation>
+          <xs:appinfo />
+          <xs:documentation>Chart count type</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="0" name="Id" nillable="true" type="xs:string">
+        <xs:annotation>
+          <xs:appinfo />
+          <xs:documentation>Chart Id</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element xmlns:q11="http://schemas.datacontract.org/2004/07/BCS.GenericLogic" minOccurs="0" name="SubType" type="q11:HighChartType">
+        <xs:annotation>
+          <xs:appinfo />
+          <xs:documentation>Chart subtype</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element xmlns:q12="http://schemas.datacontract.org/2004/07/BCS.GenericLogic" minOccurs="0" name="Type" type="q12:ChartType">
+        <xs:annotation>
+          <xs:appinfo />
+          <xs:documentation>Chart type</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ReportChart" nillable="true" type="tns:ReportChart" />
+  <xs:complexType name="PieChartDataResult">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:BaseChartDataResult">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="DisplayUnit" type="tns:DisplayUnit" />
+          <xs:element minOccurs="0" name="IsPercent" type="xs:boolean" />
+          <xs:element minOccurs="0" name="SeriesName" nillable="true" type="xs:string" />
+          <xs:element minOccurs="0" name="Values" nillable="true" type="tns:ArrayOfChartSeriesValue" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="PieChartDataResult" nillable="true" type="tns:PieChartDataResult" />
+  <xs:complexType name="ReportDefinitionsResult">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q13="http://clarizen.com/api" base="q13:Result">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Paging" nillable="true" type="q13:Paging">
+            <xs:annotation>
+              <xs:appinfo />
+              <xs:documentation>Paging information returned from this query. If &lt;code&gt;paging.hasMore&lt;/code&gt; is true, this object should be passed as is, to the same query API in order to retrieve the next page</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element minOccurs="0" name="ReportDefinitions" nillable="true" type="tns:ArrayOfReportDefinition">
+            <xs:annotation>
+              <xs:appinfo />
+              <xs:documentation>Report definitions</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="ReportDefinitionsResult" nillable="true" type="tns:ReportDefinitionsResult" />
+  <xs:complexType name="ArrayOfReportDefinition">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="ReportDefinition" nillable="true" type="tns:ReportDefinition" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfReportDefinition" nillable="true" type="tns:ArrayOfReportDefinition" />
+  <xs:complexType name="BaseChartDataMessage">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q14="http://clarizen.com/api" base="q14:BaseMessage">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="ChartId" nillable="true" type="xs:string">
+            <xs:annotation>
+              <xs:appinfo />
+              <xs:documentation>The Id of the chart, default is "1"</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="ReportId" nillable="true" type="xs:string">
+            <xs:annotation>
+              <xs:appinfo />
+              <xs:documentation>The Id of the report (e.g. "6vum944n7t0vrwi7cqr56gps42")</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element minOccurs="0" name="RuntimeFilterData" nillable="true" type="tns:ArrayOfRuntimeFilterData">
+            <xs:annotation>
+              <xs:appinfo />
+              <xs:documentation>Runtime filters</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+          <xs:element name="TabId" nillable="true" type="xs:string">
+            <xs:annotation>
+              <xs:appinfo />
+              <xs:documentation>The Id of the report tab (e.g "1e77512b-5593-4645-ad1c-5ef170cb179b")</xs:documentation>
+            </xs:annotation>
+          </xs:element>
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="BaseChartDataMessage" nillable="true" type="tns:BaseChartDataMessage" />
+  <xs:complexType name="ArrayOfRuntimeFilterData">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="RuntimeFilterData" nillable="true" type="tns:RuntimeFilterData" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfRuntimeFilterData" nillable="true" type="tns:ArrayOfRuntimeFilterData" />
+  <xs:complexType name="RuntimeFilterData">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Id" nillable="true" type="xs:string">
+        <xs:annotation>
+          <xs:appinfo />
+          <xs:documentation>Id of runtime filter field</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="0" name="Operator" nillable="true" type="xs:string">
+        <xs:annotation>
+          <xs:appinfo />
+          <xs:documentation>Runtime filter operator</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+      <xs:element minOccurs="0" name="Value" nillable="true" type="tns:RuntimeFilterValue">
+        <xs:annotation>
+          <xs:appinfo />
+          <xs:documentation>Runtime filter value</xs:documentation>
+        </xs:annotation>
+      </xs:element>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="RuntimeFilterData" nillable="true" type="tns:RuntimeFilterData" />
+  <xs:complexType name="RuntimeFilterValue">
+    <xs:sequence />
+  </xs:complexType>
+  <xs:element name="RuntimeFilterValue" nillable="true" type="tns:RuntimeFilterValue" />
+  <xs:complexType name="NumericMultiRuntimeFilterValue">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:RuntimeFilterValue">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Values" nillable="true" type="tns:ArrayOfNumericValue" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="NumericMultiRuntimeFilterValue" nillable="true" type="tns:NumericMultiRuntimeFilterValue" />
+  <xs:complexType name="ArrayOfNumericValue">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="NumericValue" nillable="true" type="tns:NumericValue" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfNumericValue" nillable="true" type="tns:ArrayOfNumericValue" />
+  <xs:complexType name="NumericValue">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Amount" type="xs:double" />
+      <xs:element minOccurs="0" name="Unit" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="NumericValue" nillable="true" type="tns:NumericValue" />
+  <xs:complexType name="NumericRangeRuntimeFilterValue">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:RuntimeFilterValue">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="From" nillable="true" type="tns:NumericValue" />
+          <xs:element minOccurs="0" name="To" nillable="true" type="tns:NumericValue" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="NumericRangeRuntimeFilterValue" nillable="true" type="tns:NumericRangeRuntimeFilterValue" />
+  <xs:complexType name="NumericSingleRuntimeFilterValue">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:RuntimeFilterValue">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Value" nillable="true" type="tns:NumericValue" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="NumericSingleRuntimeFilterValue" nillable="true" type="tns:NumericSingleRuntimeFilterValue" />
+  <xs:complexType name="RelativeDateRuntimeFilterValue">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:RuntimeFilterValue">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Amount" type="xs:int" />
+          <xs:element minOccurs="0" name="MeasureUnit" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="RelativeDateRuntimeFilterValue" nillable="true" type="tns:RelativeDateRuntimeFilterValue" />
+  <xs:complexType name="RangeDatesRuntimeFilterValue">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:RuntimeFilterValue">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="From" type="xs:dateTime" />
+          <xs:element minOccurs="0" name="To" type="xs:dateTime" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="RangeDatesRuntimeFilterValue" nillable="true" type="tns:RangeDatesRuntimeFilterValue" />
+  <xs:complexType name="SingleDateRuntimeFilterValue">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:RuntimeFilterValue">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Value" type="xs:dateTime" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="SingleDateRuntimeFilterValue" nillable="true" type="tns:SingleDateRuntimeFilterValue" />
+  <xs:complexType name="BooleanRuntimeFilterValue">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:RuntimeFilterValue">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Value" type="xs:boolean" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="BooleanRuntimeFilterValue" nillable="true" type="tns:BooleanRuntimeFilterValue" />
+  <xs:complexType name="TextRuntimeFilterValue">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:RuntimeFilterValue">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Value" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="TextRuntimeFilterValue" nillable="true" type="tns:TextRuntimeFilterValue" />
+  <xs:complexType name="PicklistRuntimeFilterValue">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:RuntimeFilterValue">
+        <xs:sequence>
+          <xs:element xmlns:q15="http://schemas.microsoft.com/2003/10/Serialization/Arrays" minOccurs="0" name="Data" nillable="true" type="q15:ArrayOfstring" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="PicklistRuntimeFilterValue" nillable="true" type="tns:PicklistRuntimeFilterValue" />
+  <xs:complexType name="PercentCompleteRuntimeFilterValue">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:RuntimeFilterValue">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="Value" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="PercentCompleteRuntimeFilterValue" nillable="true" type="tns:PercentCompleteRuntimeFilterValue" />
+  <xs:complexType name="GetLineChartDataMessage">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:BaseChartDataMessage">
+        <xs:sequence />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="GetLineChartDataMessage" nillable="true" type="tns:GetLineChartDataMessage" />
+  <xs:complexType name="GetBarChartDataMessage">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:BaseChartDataMessage">
+        <xs:sequence />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="GetBarChartDataMessage" nillable="true" type="tns:GetBarChartDataMessage" />
+  <xs:complexType name="GetPieChartDataMessage">
+    <xs:complexContent mixed="false">
+      <xs:extension base="tns:BaseChartDataMessage">
+        <xs:sequence />
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="GetPieChartDataMessage" nillable="true" type="tns:GetPieChartDataMessage" />
+  <xs:complexType name="GetReportDefinitionMessage">
+    <xs:complexContent mixed="false">
+      <xs:extension xmlns:q16="http://clarizen.com/api" base="q16:EntityQuery">
+        <xs:sequence>
+          <xs:element minOccurs="0" name="ReportId" nillable="true" type="xs:string" />
+        </xs:sequence>
+      </xs:extension>
+    </xs:complexContent>
+  </xs:complexType>
+  <xs:element name="GetReportDefinitionMessage" nillable="true" type="tns:GetReportDefinitionMessage" />
+</xs:schema>
